@@ -2,7 +2,7 @@
   "name": "plebanlaw.com",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.php",
   "scripts": {
     "compile:styles": "node-sass --include-path scss styles/entry.scss styles/bundle.css",
     "compile:styles:prefix": "postcss -u autoprefixer -r styles/bundle.css",

@@ -1,12 +1,15 @@
+//––
+// MEDIA QUIRIES
+//––––––––––––––––––––––––––––––
 .hero {
 	min-height: 700px;
 	background-image: url('../assets/home__hero-bg.jpg');
 	background-position: center;
 	background-size: cover;
-
 }
 
 .practice-areas {
+	padding: 80px 0;
 	.title {
 		text-align: center;
 	}
@@ -19,10 +22,7 @@
 }
 
 .areas {
-	border:1px solid red;
 	.injury {
-		border:1px solid red;
-		height: 100%;
 		background-image: url(http://placehold.it/750x350);
 		background-position: center;
 		background-size: cover;
@@ -30,7 +30,6 @@
 	}
 
 	.employment {
-		border:1px solid red;
 		background-image: url(http://placehold.it/350x150);
 		background-position: center;
 		background-size: cover;
@@ -53,5 +52,58 @@
 		background-position: center;
 		background-size: cover;
 		background-repeat: no-repeat;
+	}
+}
+
+
+
+//––
+// CASE RESULTS
+//––––––––––––––––––––––––––––––
+.case-results {
+	background-color: $offwhite;
+	padding: 80px 20px;
+}
+
+
+
+//––
+// NEWS
+//––––––––––––––––––––––––––––––
+.news {
+	padding: 50px 20px;
+	.title {
+		margin-bottom: 30px;
+	}
+}
+
+
+
+//––
+// MEDIA QUIRIES
+//––––––––––––––––––––––––––––––
+@media #{$tablet} {
+	.hero {
+		min-height: 700px;
+	}
+
+	.injury {
+		min-height: 600px;
+	}
+
+	.employment {
+		min-height: 295px;
+	}
+
+	.small-blocks {
+		min-height: 295px;
+	}
+
+	.criminal {
+		min-height: 295px;
+	}
+
+	.civil {
+		min-height: 295px;
 	}
 }

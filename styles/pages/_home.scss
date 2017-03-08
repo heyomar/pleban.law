@@ -3,4 +3,55 @@
 	background-image: url('../assets/home__hero-bg.jpg');
 	background-position: center;
 	background-size: cover;
+
+}
+
+.practice-areas {
+	.title {
+		text-align: center;
+	}
+
+	.content {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+}
+
+.areas {
+	border:1px solid red;
+	.injury {
+		border:1px solid red;
+		height: 100%;
+		background-image: url(http://placehold.it/750x350);
+		background-position: center;
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+
+	.employment {
+		border:1px solid red;
+		background-image: url(http://placehold.it/350x150);
+		background-position: center;
+		background-size: cover;
+		background-repeat: no-repeat;
+		margin-bottom: 10px;
+	}
+}
+
+
+.small-blocks {
+	.criminal {
+		background-image: url(http://placehold.it/350x150);
+		background-position: center;
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+
+	.civil {
+		background-image: url(http://placehold.it/350x150);
+		background-position: center;
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
 }

@@ -1,8 +1,8 @@
 html {
-  box-sizing: border-box;
-  font-size: 62.5%;
-  margin: 0;
-  padding: 0;
+	box-sizing: border-box;
+	font-size: 62.5%;
+	margin: 0;
+	padding: 0;
 }
 
 body {
@@ -17,8 +17,8 @@ h3,
 h4,
 h5,
 h6 {
-  margin: 0 0 0 2rem;
-  font-family: "Proxima Nova", sans-serif;
+	margin: 0 0 2rem 0;
+	font-family: "Proxima Nova", sans-serif;
 	line-height: 1.0;
 }
 
@@ -32,22 +32,22 @@ h5, h6 {
 
 
 @media (min-width: 550px) {
-  h1 {
+	h1 {
 		font-size: 4.4rem;
-  }
-  h2 {
+	}
+	h2 {
 		font-size: 3.6rem;
-  }
-  h3 {
+	}
+	h3 {
 		font-size: 3.1rem;
-  }
-  h4 {
+	}
+	h4 {
 		font-size: 2.4rem;
-  }
-  h5 {
+	}
+	h5 {
 		font-size: 2rem;
-  }
-  h6 {
+	}
+	h6 {
 		font-size: 1.6rem;
-  }
+	}
 }

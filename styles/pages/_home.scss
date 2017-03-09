@@ -27,6 +27,8 @@
 		background-position: center;
 		background-size: cover;
 		background-repeat: no-repeat;
+		margin-bottom: 10px;
+		height: 150px;
 	}
 
 	.employment {
@@ -35,6 +37,7 @@
 		background-size: cover;
 		background-repeat: no-repeat;
 		margin-bottom: 10px;
+		height: 150px;
 	}
 }
 
@@ -45,6 +48,8 @@
 		background-position: center;
 		background-size: cover;
 		background-repeat: no-repeat;
+		height: 150px;
+		margin-bottom: 10px;
 	}
 
 	.civil {
@@ -52,6 +57,7 @@
 		background-position: center;
 		background-size: cover;
 		background-repeat: no-repeat;
+		height: 150px;
 	}
 }
 
@@ -71,9 +77,22 @@
 // NEWS
 //––––––––––––––––––––––––––––––
 .news {
-	padding: 50px 20px;
-	.title {
-		margin-bottom: 30px;
+	padding: 50px 50px;
+
+	.thumbnail {
+		width: 100%;
+	}
+
+	.date {
+		text-transform: uppercase;
+		color: $gray;
+		font-size: 1.4rem;
+		display: block;
+		padding: 13px 0;
+	}
+
+	.readmore {
+		text-decoration: underline;
 	}
 }
 

@@ -13,13 +13,13 @@
 					<div class="col-xs-12 col-sm-6">
 						<div class="content">
 							<div class="contact">
-								<a class="link" href="">
+								<a class="link no-border" href="">
 									<object class="icon" type="image/svg+xml" data="<?php echo get_stylesheet_directory_uri(); ?>/assets/footer__icon-phone.svg"></object>
 									314.645.6666</a>
-								<a class="link" href="">
+								<a class="link no-border" href="">
 									<object class="icon" type="image/svg+xml" data="<?php echo get_stylesheet_directory_uri(); ?>/assets/footer__icon-fax.svg"></object>
 									314.645.7376</a>
-								<a class="link" href="#">
+								<a class="link no-border" href="#">
 									<object class="icon" type="image/svg+xml" data="<?php echo get_stylesheet_directory_uri(); ?>/assets/footer__icon-email.svg"></object>
 									nfo@plebanlaw.com</a>
 							</div>
@@ -43,8 +43,8 @@
 					<div class="col-xs-12 col-sm-4 col-md-4">
 						<div class="content">
 							<div class="signup">
-								<h6 class="footer-section">Newsletter&nbsp;Sign&#8209;Up</h6>
-								<span>Connect With Us on <a href="#">Linkedin</a></span>
+								<h6 class="footer-section">Newsletter Sign&#8209;Up</h6>
+								<span>Connect&nbsp;With&nbsp;Us&nbsp;on <a href="#">Linkedin</a></span>
 							</div>
 						</div>
 					</div>
@@ -54,9 +54,10 @@
 							<div class="location">
 								<h6 class="footer-section">Location</h6>
 								<address class="">
-									2010 S Big Bend Blvd <br>
+									2010&nbsp;S&nbsp;Big&nbsp;Bend&nbsp;Blvd<br>
 									St.louis MO, 63117
 								</address>
+								<a href="#">Get Directions</a>
 							</div>
 						</div>
 					</div>

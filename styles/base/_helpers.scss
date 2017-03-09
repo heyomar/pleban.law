@@ -1,3 +1,6 @@
+//––
+// CONTRAINTS
+//––––––––––––––––––––––––––––––
 .mxw-960 {
 	max-width: 960px;
 	margin: 0 auto;
@@ -8,6 +11,15 @@
 	margin: 0 auto;
 }
 
+
+
+//––
+// STYLE RESETS
+//––––––––––––––––––––––––––––––
 .center-text {
 	text-align: center;
+}
+
+.no-border {
+	border: 0;
 }

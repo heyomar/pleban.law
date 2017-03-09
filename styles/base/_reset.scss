@@ -4,13 +4,33 @@ address {
 
 a {
 	color: inherit;
+	text-decoration: none;
+	font-weight: 600;
+	border-bottom: 1px solid $white;
+	padding-bottom: 3px;
 	&:hover {
 		color: $green;
+		border-color: $green;
 	}
 	&:active {
 		color: $green;
 	}
 	&:visited {
 		color: inherit;
+	}
+}
+
+
+.link {
+	&.plus {
+		border: 3px solid $white;
+		display: block;
+		max-width: 100px;
+		margin: 0 auto;
+		text-align: center;
+		padding: 30px 25px;
+		color: $white;
+		line-height: 0;
+		font-size: 25px;
 	}
 }

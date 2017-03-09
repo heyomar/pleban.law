@@ -17,5 +17,5 @@
 		<link href="<?php echo get_stylesheet_directory_uri(); ?>/styles/bundle.css" rel="stylesheet">
 
 	</head>
-	<body>
+	<body <?php body_class(); ?>>
 	<main>

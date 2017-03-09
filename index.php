@@ -33,6 +33,7 @@
 							<div class="col-xs-12 col-sm-6">
 								<div class="content injury">
 									<h3 class="title">Personal Injury</h3>
+									<a class="link plus " href="#">&plus;</a>
 								</div>
 							</div>
 
@@ -45,6 +46,7 @@
 												<div class="col-xs-12 col-sm-12">
 													<div class="content employment">
 														<h3 class="title">Employment</h3>
+														<a class="link plus " href="#">&plus;</a>
 													</div>
 												</div>
 
@@ -56,12 +58,14 @@
 																<div class="row">
 																	<div class="col-xs-12 col-sm-6">
 																		<div class="content criminal">
-																			<h3 class="title">Criminal &amp; DWI</h3>
+																			<h4 class="title">Criminal &amp; DWI</h4>
+																			<a class="link plus " href="#">&plus;</a>
 																		</div>
 																	</div>
 																	<div class="col-xs-12 col-sm-6">
 																		<div class="content civil">
-																			<h3 class="title">Other Civil <br> Litigation</h3>
+																			<h4 class="title">Other Civil <br> Litigation</h4>
+																			<a class="link plus " href="#">&plus;</a>
 																		</div>
 																	</div>
 																</div>

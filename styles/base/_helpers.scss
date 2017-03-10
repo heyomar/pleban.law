@@ -19,6 +19,7 @@
 	padding: 80px 25px;
 }
 
+
 //––
 // STYLE RESETS
 //––––––––––––––––––––––––––––––
@@ -28,4 +29,14 @@
 
 .no-border {
 	border: 0;
+}
+
+
+//––
+// MIXINS
+//––––––––––––––––––––––––––––––
+@mixin cover {
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
 }

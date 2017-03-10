@@ -1,12 +1,18 @@
 //––
 // HERO
 //––––––––––––––––––––––––––––––
-.hero {
-	background-image: url('../assets/home__hero-bg.jpg');
+.home {
+	.hero {
+		background-image: url('../assets/home__hero-bg.jpg');
+	}
+}
+.practice-areas-section {
+	padding: 80px 0;
+	text-align: center;
 }
 
-.practice-areas {
-	padding: 80px 0;
+.areas {
+	padding: 40px 0;
 	.title {
 		text-align: center;
 	}
@@ -16,44 +22,33 @@
 		flex-direction: column;
 		justify-content: center;
 	}
-}
-
-.areas {
 	.injury {
 		background-image: url(http://placehold.it/750x350);
-		background-position: center;
-		background-size: cover;
-		background-repeat: no-repeat;
+		@include cover;
 		margin-bottom: 10px;
 		height: 150px;
 	}
 
 	.employment {
 		background-image: url(http://placehold.it/350x150);
-		background-position: center;
-		background-size: cover;
-		background-repeat: no-repeat;
+		@include cover;
 		margin-bottom: 10px;
 		height: 150px;
 	}
 }
 
 
-.small-blocks {
+.inner-half {
 	.criminal {
 		background-image: url(http://placehold.it/350x150);
-		background-position: center;
-		background-size: cover;
-		background-repeat: no-repeat;
+		@include cover;
 		height: 150px;
 		margin-bottom: 10px;
 	}
 
 	.civil {
 		background-image: url(http://placehold.it/350x150);
-		background-position: center;
-		background-size: cover;
-		background-repeat: no-repeat;
+		@include cover;
 		height: 150px;
 	}
 }

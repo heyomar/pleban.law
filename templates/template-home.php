@@ -19,7 +19,7 @@
 			</div>
 		</div>
 
-		<div class="practice-areas mxw-960">
+		<div class="practice-areas-section mxw-960">
 			<div class="inner">
 				<div class="row">
 					<div class="col-xs-12 col-sm-12 col-md-12">
@@ -59,7 +59,7 @@
 												<div class="col-xs-12 col-md-12">
 													<div class="content">
 
-														<div class="small-blocks">
+														<div class="inner-half">
 															<div class="inner">
 																<div class="row">
 																	<div class="col-xs-12 col-sm-6">

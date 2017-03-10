@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html <?php language_attributes(); ?>>
 	<head>
 		<!-- META -->
 		<meta charset="utf-8">
@@ -11,11 +11,16 @@
 		<script>try{Typekit.load({ async: true });}catch(e){}</script>
 
 		<!-- TITLE -->
-		<title>Pleban Law</title>
+		<!-- <title><?php wp_title(); ?></title> -->
 
 		<!-- CSS -->
 		<link href="<?php echo get_stylesheet_directory_uri(); ?>/styles/bundle.css" rel="stylesheet">
 
+		<?php wp_head(); ?>
+
 	</head>
 	<body <?php body_class(); ?>>
+		<nav role="navigation">
+			<?php wp_nav_menu( array( 'theme_location' => 'primary-navigation' ) ); ?>
+		</nav>
 	<main>

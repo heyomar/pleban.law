@@ -36,6 +36,7 @@
 					<div class="col-xs-12 col-sm-4 col-md-4">
 						<div class="content">
 							<div class="footernav">
+								<?php wp_nav_menu( array( 'theme_location' => 'secondary-navigation' ) ); ?>
 							</div>
 						</div>
 					</div>
@@ -80,8 +81,9 @@
 				</div>
 			</div>
 		</div>
-		<!-- JS -->
+
 	</footer>
 </main>
+<?php wp_footer(); ?>
 </body>
 </html>

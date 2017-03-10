@@ -3,3 +3,73 @@
 		background-image: url('../assets/home__hero-bg.jpg');
 	}
 }
+
+.hover-content {
+	display: none;
+	position: absolute;
+	height: 100%;
+	transition: background-color 5s ease-in;
+	background-color: $offblack;
+}
+
+.areas {
+	margin-bottom: 50px;
+
+	.title {
+		text-align: center;
+	}
+
+	.content {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+	.injury {
+		background-image: url(http://placehold.it/750x350);
+		@include cover;
+		margin-bottom: 10px;
+		height: 150px;
+		position: relative;
+
+		&:hover .hover-content{
+			display: block;
+		}
+	}
+
+	.employment {
+		background-image: url(http://placehold.it/350x150);
+		@include cover;
+		margin-bottom: 10px;
+		height: 150px;
+		position: relative;
+
+		&:hover .hover-content{
+			display: block;
+		}
+	}
+
+	.inner-half {
+		.criminal {
+			background-image: url(http://placehold.it/350x150);
+			@include cover;
+			height: 150px;
+			margin-bottom: 10px;
+			position: relative;
+
+			&:hover .hover-content{
+				display: block;
+			}
+		}
+
+		.civil {
+			background-image: url(http://placehold.it/350x150);
+			@include cover;
+			height: 150px;
+			position: relative;
+
+			&:hover .hover-content{
+				display: block;
+			}
+		}
+	}
+}

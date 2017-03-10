@@ -20,7 +20,7 @@
 			</div>
 		</div>
 
-		<div class="mxw-960">
+		<div class="mxw-960 inner-space">
 			<div class="inner">
 				<div class="row">
 					<div class="col-xs-12 col-sm-12 col-md-12">

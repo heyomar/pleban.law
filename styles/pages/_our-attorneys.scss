@@ -1,0 +1,23 @@
+.our-attorneys {
+	.hero {
+		background-image: url('../assets/ourattorneys__hero-bg.jpg');
+	}
+}
+
+
+.attorney {
+	min-height: 500px;
+	border:1px solid red;
+	position: relative;
+	text-align: center;
+	color: $white;
+	background-image: url(../assets/attorney__john-pleban.jpg);
+	@include cover;
+	.name {
+		padding-bottom: 40px;
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+	}
+}

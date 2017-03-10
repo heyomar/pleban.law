@@ -6,18 +6,25 @@
 
 
 .attorney {
-	min-height: 500px;
-	border:1px solid red;
+	min-height: 250px;
 	position: relative;
 	text-align: center;
 	color: $white;
-	background-image: url(../assets/attorney__john-pleban.jpg);
+	background-image: url('http://placehold.it/500x400');
 	@include cover;
+
 	.name {
 		padding-bottom: 40px;
 		position: absolute;
 		bottom: 0;
 		left: 0;
 		right: 0;
+	}
+}
+
+
+@media #{$tablet} {
+	.attorney {
+		min-height: 500px;
 	}
 }

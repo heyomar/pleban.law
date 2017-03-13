@@ -57,5 +57,11 @@
 		color: $white;
 		font-size: 25px;
 		line-height: 50px;
+
+		&.small {
+			width: 35px;
+			height: 30px;
+			line-height: 35px;
+		}
 	}
 }

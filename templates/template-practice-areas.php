@@ -45,7 +45,8 @@
 							<h3 class="title">Personal Injury</h3>
 							<a class="link plus " href="#">&plus;</a>
 							<div class="hover-content">
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+								<h3 class="title">Personal Injury</h3>
+								<a class="link plus " href="#">&plus;</a>
 							</div>
 						</div>
 					</div>
@@ -60,9 +61,18 @@
 										<div class="col-xs-12 col-sm-12">
 											<div class="content employment">
 												<h3 class="title">Employment</h3>
-												<a class="link plus " href="#">&plus;</a>
+												<a class="link plus" href="#">&plus;</a>
 												<div class="hover-content">
-													Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+													<h3 class="title">Employment</h3>
+													<ul class="list">
+														<li>Discrimination</li>
+														<li>Harassment/Sexual Harassment</li>
+														<li>Wrongful Discharge</li>
+														<li>Whistleblower</li>
+														<li>Administrative Preceedings</li>
+														<li>Free Speech False Claims Act</li>
+													</ul>
+													<a class="link plus " href="#">&plus;</a>
 												</div>
 											</div>
 										</div>
@@ -76,18 +86,29 @@
 															<div class="col-xs-12 col-sm-6">
 																<div class="content criminal">
 																	<h4 class="title">Criminal &amp; DWI</h4>
-																	<a class="link plus " href="#">&plus;</a>
+																	<a class="link plus small" href="#">&plus;</a>
 																	<div class="hover-content">
-																		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+																		<h4 class="title">Criminal &amp; DWI</h4>
+																		<a class="link plus small" href="#">&plus;</a>
 																	</div>
 																</div>
 															</div>
 															<div class="col-xs-12 col-sm-6">
-																<div class="content civil">
+																<div class="content civil hover-effects">
 																	<h4 class="title">Other Civil <br> Litigation</h4>
-																	<a class="link plus " href="#">&plus;</a>
+																	<a class="link plus small" href="#">&plus;</a>
 																	<div class="hover-content">
-																		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+																		<h4 class="title">Other Civil <br> Litigation</h4>
+																		<ul class="list">
+																			<li>False Arrest</li>
+																			<li>Excessive Force</li>
+																			<li>Wrongful Conviction</li>
+																			<li>Litigation</li>
+																			<li>Contracted Law</li>
+																			<li>Appeals</li>
+																			<li>Consumer Rights</li>
+																		</ul>
+																		<a class="link plus small" href="#">&plus;</a>
 																	</div>
 																</div>
 															</div>

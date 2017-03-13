@@ -1,17 +1,48 @@
+//––
+// HERO
+//––––––––––––––––––––––––––––––
 .practice-areas {
 	.hero {
 		background-image: url('../assets/home__hero-bg.jpg');
 	}
 }
 
+
+
+//––
+// HIDDEN CONTENT
+//––––––––––––––––––––––––––––––
 .hover-content {
 	display: none;
 	position: absolute;
 	height: 100%;
-	transition: background-color 5s ease-in;
-	background-color: $offblack;
+	color: $gray;
+	text-align: center;
+  flex-direction: column;
+  justify-content: center;
+	width: 100%;
+
+	.list {
+		list-style-type: none;
+		padding: 0;
+		text-align: center;
+		li {
+			padding: 3px 0;
+		}
+	}
 }
 
+@mixin item-hover {
+	&:hover .hover-content{
+		display: flex;
+		background-color: $offblack;
+	}
+}
+
+
+//––
+// AREAS
+//––––––––––––––––––––––––––––––
 .areas {
 	margin-bottom: 50px;
 
@@ -24,16 +55,14 @@
 		flex-direction: column;
 		justify-content: center;
 	}
+
 	.injury {
 		background-image: url(http://placehold.it/750x350);
 		@include cover;
 		margin-bottom: 10px;
 		height: 150px;
 		position: relative;
-
-		&:hover .hover-content{
-			display: block;
-		}
+		@include item-hover;
 	}
 
 	.employment {
@@ -42,34 +71,24 @@
 		margin-bottom: 10px;
 		height: 150px;
 		position: relative;
-
-		&:hover .hover-content{
-			display: block;
-		}
+		@include item-hover;
 	}
 
-	.inner-half {
-		.criminal {
-			background-image: url(http://placehold.it/350x150);
-			@include cover;
-			height: 150px;
-			margin-bottom: 10px;
-			position: relative;
 
-			&:hover .hover-content{
-				display: block;
-			}
-		}
+	.criminal {
+		background-image: url(http://placehold.it/350x150);
+		@include cover;
+		height: 150px;
+		margin-bottom: 10px;
+		position: relative;
+		@include item-hover;
+	}
 
-		.civil {
-			background-image: url(http://placehold.it/350x150);
-			@include cover;
-			height: 150px;
-			position: relative;
-
-			&:hover .hover-content{
-				display: block;
-			}
-		}
+	.civil {
+		background-image: url(http://placehold.it/350x150);
+		@include cover;
+		height: 150px;
+		position: relative;
+		@include item-hover;
 	}
 }

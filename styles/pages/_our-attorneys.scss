@@ -12,6 +12,7 @@
 	color: $white;
 	background-image: url('http://placehold.it/500x400');
 	@include cover;
+	margin: 25px;
 
 	.name {
 		padding-bottom: 40px;
@@ -25,6 +26,14 @@
 
 @media #{$tablet} {
 	.attorney {
+		min-height: 400px;
+		margin: 25px;
+	}
+}
+
+@media screen and (min-width:1024px) {
+	.attorney {
 		min-height: 500px;
+		margin: 0;
 	}
 }

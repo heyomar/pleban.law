@@ -27,7 +27,7 @@ footer {
 
 	.signup {
 		border: 0;
-		padding: 20px 50px 40px;
+		padding: 20px 50px 80px;
 		margin-bottom: 20px;
 		text-align: center;
 	}
@@ -61,6 +61,20 @@ footer {
 	text-transform: uppercase;
 }
 
+.footernav {
+	text-align: center;
+	ul {
+		padding: 0;
+	}
+	li {
+		list-style-type: none;
+	}
+	a {
+		border: 0;
+		padding: 3px 0;
+		display: block;
+	}
+}
 
 
 //––
@@ -85,5 +99,9 @@ footer {
 		.legal {
 			text-align: left;
 		}
+	}
+
+	.footernav {
+		text-align: left;
 	}
 }

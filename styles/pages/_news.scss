@@ -1,0 +1,35 @@
+.blog {
+	.hero {
+		background-image: url('../assets/crnews__hero-bg.jpg');
+	}
+
+	.post {
+		padding: 40px 0;
+
+		.date {
+			font-weight: bold;
+			color: $offgray;
+			padding-bottom: 15px;
+		}
+
+		.readmore {
+			border-bottom: 1px solid $offblack;
+		}
+	}
+}
+
+
+.pagination {
+	text-align: right;
+	padding-top: 15px;
+
+	.page-numbers {
+		border: 2px solid $offblack;
+		padding: 3px 8px;
+
+		&:hover {
+			background-color: $offblack;
+			color: $white;
+		}
+	}
+}

@@ -22,39 +22,60 @@
 
 		$args = array(
 			'orderby' => 'date',
-			'posts_per_page' => '4',
-			'order'          => 'DESC',
-			'post_type'      => 'post',
-			'post_status'    => 'publish',
+			'posts_per_page' 	=> '4',
+			'order'						=> 'DESC',
+			'post_type'				=> 'post',
+			'post_status'			=> 'publish',
 			'paged' => $paged
 
 		);
-		$the_query = new WP_Query( $args );
-
-	?>
+		$the_query = new WP_Query( $args );?>
 
 	<?php if ( $the_query->have_posts() ) : while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
-		<div class="post"><div class="date"><?php the_time( get_option( 'date_format' ) ); ?></div>
-		<h3 class="title"><a href="<?php the_permalink();?>"><?php the_title() ;?></a></h3>
-		<?php the_excerpt(); ?>
-		<a href="<?php the_permalink();?>" class="readmore">Read More</a>
-		</div>
-		<hr>
+		<?php if (has_category('Case Results')): ?>
+
+			<div class="post">
+				<div class="">
+					<object class="icon" type="image/svg+xml" data="<?php echo get_stylesheet_directory_uri(); ?>/assets/blog__icon-gavel.svg"></object>
+					Settlement</a>
+				</div>
+				<h3 class="title"><a href="<?php the_permalink();?>"><?php the_title() ;?></a></h3>
+				<?php the_excerpt(); ?>
+
+				<a href="<?php the_permalink();?>" class="readmore">Read More</a>
+				</div>
+				<hr>
+
+
+		<?php else: ?>
+
+			<div class="post"><div class="date"><?php the_time( get_option( 'date_format' ) ); ?></div>
+			<h3 class="title"><a href="<?php the_permalink();?>"><?php the_title() ;?></a></h3>
+			<?php the_excerpt(); ?>
+
+			<a href="<?php the_permalink();?>" class="readmore">Read More</a>
+			</div>
+			<hr>
+		<?php endif; ?>
+
+
 	<?php endwhile; ?>
 
 	<?php else: ?>
 		<p>Sorry, there are no posts to display</p>
 
-	<?php endif;
-		$big = 999999999; // need an unlikely integer ?>
-	<div class="pagination"><?php
-		echo paginate_links( array(
-			'base' => str_replace( $big, '%#%', esc_url( get_pagenum_link( $big ) ) ),
-			'format' => '?paged=%#%',
-			'current' => max( 1, get_query_var('paged') ),
-			'total' => $the_query->max_num_pages
-		) );
-	?></div>
+	<?php endif;?>
+	<div class="pagination">
+		<?php
+			$big = 999999999; // need an unlikely integer
+			echo paginate_links( array(
+				'base' => str_replace( $big, '%#%', esc_url( get_pagenum_link( $big ) ) ),
+				'format' => '?paged=%#%',
+				'current' => max( 1, get_query_var('paged') ),
+				'total' => $the_query->max_num_pages
+			) );
+		?>
+	</div>
 </div>
 
 

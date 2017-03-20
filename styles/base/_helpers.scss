@@ -36,6 +36,18 @@
 }
 
 
+.hide-mobile {
+	display: none;
+}
+
+@media #{$tablet} {
+	.show-tablet {
+		display: block;
+	}
+}
+
+
+
 //––
 // MIXINS
 //––––––––––––––––––––––––––––––

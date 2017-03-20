@@ -35,9 +35,9 @@
 		<?php if (has_category('Case Results')): ?>
 
 			<div class="post">
-				<div class="">
+				<div class="settlement">
 					<object class="icon" type="image/svg+xml" data="<?php echo get_stylesheet_directory_uri(); ?>/assets/blog__icon-gavel.svg"></object>
-					Settlement</a>
+					<span class="copy">Settlement</span>
 				</div>
 				<h3 class="title"><a href="<?php the_permalink();?>"><?php the_title() ;?></a></h3>
 				<?php the_excerpt(); ?>
@@ -45,19 +45,40 @@
 				<a href="<?php the_permalink();?>" class="readmore">Read More</a>
 				</div>
 				<hr>
-
-
 		<?php else: ?>
 
-			<div class="post"><div class="date"><?php the_time( get_option( 'date_format' ) ); ?></div>
-			<h3 class="title"><a href="<?php the_permalink();?>"><?php the_title() ;?></a></h3>
-			<?php the_excerpt(); ?>
+			<div class="post">
+				<div class="row">
 
-			<a href="<?php the_permalink();?>" class="readmore">Read More</a>
+					<?php if (has_post_thumbnail(get_the_id())) { ?>
+						<div class="col-xs-12 col-sm-6 col-md-6">
+							<div class="content">
+								<div class="date"><?php the_time( get_option( 'date_format' ) ); ?></div>
+								<h3 class="title"><a href="<?php the_permalink();?>"><?php the_title() ;?></a></h3>
+								<?php the_excerpt(); ?>
+								<a href="<?php the_permalink();?>" class="readmore">Read More</a>
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-6 hide-mobile show-tablet ">
+							<div class="content">
+								<?php the_post_thumbnail(); ?>
+							</div>
+						</div>
+					<?php } else {?>
+						<div class="col-xs-12 col-sm-12 col-md-12">
+							<div class="content">
+								<div class="date"><?php the_time( get_option( 'date_format' ) ); ?></div>
+								<h3 class="title"><a href="<?php the_permalink();?>"><?php the_title() ;?></a></h3>
+								<?php the_excerpt(); ?>
+								<a href="<?php the_permalink();?>" class="readmore">Read More</a>
+							</div>
+						</div>
+					<?php } ?>
+				</div>
+
 			</div>
 			<hr>
 		<?php endif; ?>
-
 
 	<?php endwhile; ?>
 
@@ -77,7 +98,5 @@
 		?>
 	</div>
 </div>
-
-
 
 <?php get_footer(); ?>

@@ -18,6 +18,30 @@
 	}
 }
 
+.settlement {
+	padding-bottom: 15px;
+	.icon {
+		height: auto;
+		width: 20px;
+		display: inline-block;
+	}
+
+	.copy {
+		font-weight: bold;
+		color: $green;
+		vertical-align: 4px;
+		text-transform: uppercase;
+	}
+}
+
+.post {
+	.attachment-post-thumbnail {
+		width: 100%;
+	}
+	.content {
+		margin-right: 10px;
+	}
+}
 
 .pagination {
 	text-align: right;

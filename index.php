@@ -34,7 +34,7 @@
 	<?php if ( $the_query->have_posts() ) : while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
 		<?php if (has_category('Case Results')): ?>
 
-			<div class="post">
+			<div class="post-item">
 				<div class="settlement">
 					<object class="icon" type="image/svg+xml" data="<?php echo get_stylesheet_directory_uri(); ?>/assets/blog__icon-gavel.svg"></object>
 					<span class="copy">Settlement</span>
@@ -47,7 +47,7 @@
 				<hr>
 		<?php else: ?>
 
-			<div class="post">
+			<div class="post-item">
 				<div class="row">
 
 					<?php if (has_post_thumbnail(get_the_id())) { ?>

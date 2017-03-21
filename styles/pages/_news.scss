@@ -2,21 +2,19 @@
 	.hero {
 		background-image: url('../assets/crnews__hero-bg.jpg');
 	}
-
-	.post {
-		padding: 40px 0;
-
-		.date {
-			font-weight: bold;
-			color: $offgray;
-			padding-bottom: 15px;
-		}
-
-		.readmore {
-			border-bottom: 1px solid $offblack;
-		}
-	}
 }
+
+
+.date {
+	font-weight: bold;
+	color: $offgray;
+	padding-bottom: 15px;
+}
+
+.readmore {
+	border-bottom: 1px solid $offblack;
+}
+
 
 .settlement {
 	padding-bottom: 15px;
@@ -34,7 +32,9 @@
 	}
 }
 
-.post {
+
+.post-item {
+	padding: 40px 0;
 	.attachment-post-thumbnail {
 		width: 100%;
 	}
@@ -42,6 +42,7 @@
 		margin-right: 10px;
 	}
 }
+
 
 .pagination {
 	text-align: right;
@@ -55,5 +56,12 @@
 			background-color: $offblack;
 			color: $white;
 		}
+	}
+}
+
+
+.single-post {
+	.hero {
+		background-image: url('../assets/crnews__hero-bg.jpg');
 	}
 }

@@ -27,8 +27,12 @@
 		padding: 0;
 		text-align: center;
 		li {
-			padding: 3px 0;
+			padding: 2px 0;
 		}
+	}
+
+	.title {
+		color: $white;
 	}
 }
 
@@ -36,6 +40,10 @@
 	&:hover .hover-content{
 		display: flex;
 		background-color: $offblack;
+
+		.title {
+			margin-bottom: 0;
+		}
 	}
 }
 
@@ -45,6 +53,7 @@
 //––––––––––––––––––––––––––––––
 .areas {
 	margin-bottom: 50px;
+	font-size: 14px;
 
 	.title {
 		text-align: center;
@@ -73,7 +82,6 @@
 		position: relative;
 		@include item-hover;
 	}
-
 
 	.criminal {
 		background-image: url(http://placehold.it/350x150);

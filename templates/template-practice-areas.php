@@ -46,6 +46,14 @@
 							<a class="link plus " href="#">&plus;</a>
 							<div class="hover-content">
 								<h3 class="title">Personal Injury</h3>
+								<ul class="list">
+									<li>Car and truck accidents</li>
+									<li>Motorcylce Accidents</li>
+									<li>Product Liability</li>
+									<li>Slip and fall</li>
+									<li>Medical Malpractice</li>
+									<li>Vaccine Injuries</li>
+								</ul>
 								<a class="link plus " href="#">&plus;</a>
 							</div>
 						</div>
@@ -89,6 +97,7 @@
 																	<a class="link plus small" href="#">&plus;</a>
 																	<div class="hover-content">
 																		<h4 class="title">Criminal &amp; DWI</h4>
+																		<br>
 																		<a class="link plus small" href="#">&plus;</a>
 																	</div>
 																</div>

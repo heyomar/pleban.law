@@ -51,6 +51,10 @@
 				<div class="content injury">
 					<h3 class="title">Personal Injury</h3>
 					<a class="link plus " href="#">&plus;</a>
+					<div class="hover-content">
+						<h3 class="title">Personal Injury</h3>
+						<a class="link plus " href="#">&plus;</a>
+					</div>
 				</div>
 			</div>
 
@@ -60,10 +64,23 @@
 					<div class="employ">
 						<div class="inner">
 							<div class="row">
+
 								<div class="col-xs-12 col-sm-12">
 									<div class="content employment">
 										<h3 class="title">Employment</h3>
-										<a class="link plus " href="#">&plus;</a>
+										<a class="link plus" href="#">&plus;</a>
+										<div class="hover-content">
+											<h3 class="title">Employment</h3>
+											<ul class="list">
+												<li>Discrimination</li>
+												<li>Harassment/Sexual Harassment</li>
+												<li>Wrongful Discharge</li>
+												<li>Whistleblower</li>
+												<li>Administrative Preceedings</li>
+												<li>Free Speech False Claims Act</li>
+											</ul>
+											<a class="link plus " href="#">&plus;</a>
+										</div>
 									</div>
 								</div>
 
@@ -76,13 +93,30 @@
 													<div class="col-xs-12 col-sm-6">
 														<div class="content criminal">
 															<h4 class="title">Criminal &amp; DWI</h4>
-															<a class="link plus " href="#">&plus;</a>
+															<a class="link plus small" href="#">&plus;</a>
+															<div class="hover-content">
+																<h4 class="title">Criminal &amp; DWI</h4>
+																<a class="link plus small" href="#">&plus;</a>
+															</div>
 														</div>
 													</div>
 													<div class="col-xs-12 col-sm-6">
-														<div class="content civil">
+														<div class="content civil hover-effects">
 															<h4 class="title">Other Civil <br> Litigation</h4>
-															<a class="link plus " href="#">&plus;</a>
+															<a class="link plus small" href="#">&plus;</a>
+															<div class="hover-content">
+																<h4 class="title">Other Civil <br> Litigation</h4>
+																<ul class="list">
+																	<li>False Arrest</li>
+																	<li>Excessive Force</li>
+																	<li>Wrongful Conviction</li>
+																	<li>Litigation</li>
+																	<li>Contracted Law</li>
+																	<li>Appeals</li>
+																	<li>Consumer Rights</li>
+																</ul>
+																<a class="link plus small" href="#">&plus;</a>
+															</div>
 														</div>
 													</div>
 												</div>
@@ -91,7 +125,6 @@
 
 									</div>
 								</div>
-
 
 							</div>
 						</div>

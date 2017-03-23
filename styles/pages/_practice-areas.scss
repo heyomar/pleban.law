@@ -36,6 +36,7 @@
 	}
 }
 
+
 @mixin item-hover {
 	&:hover .hover-content{
 		display: flex;
@@ -47,7 +48,6 @@
 	}
 }
 
-
 //––
 // AREAS
 //––––––––––––––––––––––––––––––
@@ -57,6 +57,7 @@
 
 	.title {
 		text-align: center;
+		color: $white;
 	}
 
 	.content {
@@ -66,37 +67,40 @@
 	}
 
 	.injury {
-		background-image: url(http://placehold.it/750x350);
+		background-image: url(../assets/pa__personalinjury.jpg);
 		@include cover;
 		margin-bottom: 10px;
 		height: 150px;
 		position: relative;
-		@include item-hover;
 	}
 
 	.employment {
-		background-image: url(http://placehold.it/350x150);
+		background-image: url(../assets/pa__employment.jpg);
 		@include cover;
 		margin-bottom: 10px;
 		height: 150px;
 		position: relative;
-		@include item-hover;
 	}
 
 	.criminal {
-		background-image: url(http://placehold.it/350x150);
+		background-image: url(../assets/pa__criminal.jpg);
 		@include cover;
 		height: 150px;
 		margin-bottom: 10px;
 		position: relative;
-		@include item-hover;
 	}
 
 	.civil {
-		background-image: url(http://placehold.it/350x150);
+		background-image: url(../assets/pa__civil.jpg);
 		@include cover;
 		height: 150px;
 		position: relative;
+	}
+}
+
+
+@media #{$tablet} {
+	.injury, .employment, .criminal, .civil {
 		@include item-hover;
 	}
 }

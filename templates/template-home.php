@@ -53,6 +53,15 @@
 					<a class="link plus " href="#">&plus;</a>
 					<div class="hover-content">
 						<h3 class="title">Personal Injury</h3>
+						<ul class="list">
+							<li>False Arrest</li>
+							<li>Excessive Force</li>
+							<li>Wrongful Conviction</li>
+							<li>Litigation</li>
+							<li>Contracted Law</li>
+							<li>Appeals</li>
+							<li>Consumer Rights</li>
+						</ul>
 						<a class="link plus " href="#">&plus;</a>
 					</div>
 				</div>
@@ -96,6 +105,7 @@
 															<a class="link plus small" href="#">&plus;</a>
 															<div class="hover-content">
 																<h4 class="title">Criminal &amp; DWI</h4>
+																<br>
 																<a class="link plus small" href="#">&plus;</a>
 															</div>
 														</div>

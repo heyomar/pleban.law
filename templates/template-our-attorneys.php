@@ -47,7 +47,7 @@
 					<div class="attorney">
 						<div class="name">
 							<h5>Diadem Exhalted</h5>
-							<a class="link plus " href="#">&plus;</a>
+							<a class="link plus " href="#"></a>
 						</div>
 					</div>
 				</div>
@@ -57,7 +57,7 @@
 					<div class="attorney">
 						<div class="name">
 							<h5>Diadem Exhalted</h5>
-							<a class="link plus " href="#">&plus;</a>
+							<a class="link plus " href="#"></a>
 						</div>
 					</div>
 				</div>
@@ -67,7 +67,7 @@
 					<div class="attorney">
 						<div class="name">
 							<h5>Diadem Exhalted</h5>
-							<a class="link plus" href="#">&plus;</a>
+							<a class="link plus" href="#"></a>
 						</div>
 					</div>
 				</div>
@@ -77,7 +77,7 @@
 					<div class="attorney">
 						<div class="name">
 							<h5>Diadem Exhalted</h5>
-							<a class="link plus " href="#">&plus;</a>
+							<a class="link plus " href="#"></a>
 						</div>
 					</div>
 				</div>

@@ -25,7 +25,7 @@
 					<div class="col-xs-12 col-sm-6">
 						<div class="content">
 							<div class="copy">
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.
+								<?php the_field('body_copy'); ?>
 							</div>
 							<div class="contact-details">
 								<div class="inner">
@@ -33,21 +33,21 @@
 										<div class="col-xs-12 col-sm-6 col-md-6">
 											<div class="content">
 												<strong>PHONE</strong><br>
-												314.645.6666
+												<?php the_field("phone") ?>
 											</div>
 										</div>
 
 										<div class="col-xs-12 col-sm-6 col-md-6">
 											<div class="content">
 												<strong>EMAIL</strong><br>
-												<a class="" href="#">info@plebanlaw.com</a>
+												<a class="" href="#"><?php the_field("email"); ?></a>
 											</div>
 										</div>
 
 										<div class="col-xs-12 col-sm-6 col-md-6">
 											<div class="content">
 												<strong>FAX</strong><br>
-												314.645.7376
+												<?php the_field("fax"); ?>
 											</div>
 										</div>
 
@@ -55,8 +55,7 @@
 											<div class="content">
 												<strong>ADDRESS</strong>
 												<address class="">
-													2010 S. Big Bend Blvd
-													St.Louis, MO 63117
+													<?php the_field("address"); ?>
 												</address>
 											</div>
 										</div>

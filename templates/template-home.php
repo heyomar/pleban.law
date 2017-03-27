@@ -6,7 +6,6 @@
 
 <!--END======================================================================-->
 <?php get_header(); ?>
-	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
 
 <!--
@@ -179,42 +178,43 @@
 <!--
 		NEWS
 ------------------------------------------------------------------------------->
+<?php
+
+	$args = array(
+		'orderby' => 'date',
+		'posts_per_page' 	=> '3',
+		'order'						=> 'DESC',
+		'post_type'				=> 'post',
+		'post_status'			=> 'publish',
+		'category_name'  => 'uncategorized'
+
+	);
+	$the_query = new WP_Query( $args );?>
+
+
 <div class="news mxw-960">
 	<div class="inner">
 		<h1 class="title center-text">News</h1>
 		<div class="row">
-			<div class="col-xs-12 col-sm-4 col-md-4">
-				<div class="content">
-					<img class="thumbnail" src="http://placehold.it/300x150" alt="">
-					<span class="date">October 5, 2040</span>
-					<h3 class="title">Article Title</h3>
-					<a href="" class="readmore">Read More</a>
-				</div>
-			</div>
+
+		<?php if ( $the_query->have_posts() ) : while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
 
 			<div class="col-xs-12 col-sm-4 col-md-4">
 				<div class="content">
-					<img class="thumbnail" src="http://placehold.it/300x150" alt="">
-					<span class="date">October 5, 2040</span>
-					<h3 class="title">Article Title</h3>
-					<a href="" class="readmore">Read More</a>
+					<img class="thumbnail" src="<?php the_post_thumbnail_url(); ?>" alt="">
+					<span class="date"><?php the_time( get_option( 'date_format' ) ); ?></span>
+					<h3 class="title"><a href="<?php the_permalink();?>"><?php the_title() ;?></a></h3>
+					<a href="<?php the_permalink();?>" class="readmore">Read More</a>
 				</div>
 			</div>
 
-			<div class="col-xs-12 col-sm-4 col-md-4">
-				<div class="content">
-					<img class="thumbnail" src="http://placehold.it/300x150" alt="">
-					<span class="date">October 5, 2040</span>
-					<h3 class="title">Article Title</h3>
-					<a href="" class="readmore">Read More</a>
-				</div>
-			</div>
+		<?php endwhile; ?>
+
+		<?php endif;?>
 		</div>
 	</div>
 </div>
+<?php wp_reset_query(); ?>
 
-
-<?php endwhile; ?>
-<?php endif ?>
 <?php get_footer(); ?>
 <!--END======================================================================-->

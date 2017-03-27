@@ -97,6 +97,7 @@
 			) );
 		?>
 	</div>
+	<?php wp_reset_query(); ?>
 </div>
 
 <?php get_footer(); ?>

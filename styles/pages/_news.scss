@@ -64,4 +64,22 @@
 	.hero {
 		background-image: url('../assets/crnews__hero-bg.jpg');
 	}
+
+	.title {
+		font-weight: 800;
+		margin-bottom: 0;
+	}
+
+	.content img {
+		display: none;
+	}
+}
+
+
+@media #{$tablet} {
+	.single-post .content img {
+		float: right;
+		display: block;
+		padding: 0 0 20px 20px;
+	}
 }

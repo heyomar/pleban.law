@@ -8,7 +8,7 @@
     "compile:styles:prefix": "postcss -u autoprefixer -r styles/bundle.css",
     "styles": "parallelshell 'npm run compile:styles' 'npm run compile:styles:prefix'",
     "watch:styles": "nodemon --watch styles --ext scss --exec 'npm run styles'",
-    "serve": "browser-sync start -p localhost:3000 --files 'styles/*.css' '**/*.php'",
+    "serve": "browser-sync start -p plebanlaw:4000 --files 'styles/*.css' '**/*.php'",
     "start": "parallelshell 'npm run serve' 'npm run watch:styles'"
   },
   "repository": {

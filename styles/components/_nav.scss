@@ -4,6 +4,7 @@ nav {
 	height: 0;
 	text-align: center;
 	color: $white;
+	z-index: 100;
 	ul {
 		li {
 			display: inline-block;

@@ -23,10 +23,12 @@
 					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 						<div class="content">
 							<?php the_content(); ?>
+
 						</div>
 					</div>
 				</div>
 			</div>
+			<div class="center-text"><a class="btn" href="/case-results-news">View More Case Results &amp; News</a></div>
 		</div>
 	<?php endwhile; ?>
 	<?php endif ?>

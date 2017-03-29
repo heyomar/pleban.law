@@ -4,12 +4,25 @@
   "description": "",
   "main": "index.php",
   "scripts": {
-    "compile:styles": "node-sass --include-path scss styles/entry.scss styles/bundle.css",
-    "compile:styles:prefix": "postcss -u autoprefixer -r styles/bundle.css",
-    "styles": "parallelshell 'npm run compile:styles' 'npm run compile:styles:prefix'",
-    "watch:styles": "nodemon --watch styles --ext scss --exec 'npm run styles'",
-    "serve": "browser-sync start -p plebanlaw:4000 --files 'styles/*.css' '**/*.php'",
-    "start": "parallelshell 'npm run serve' 'npm run watch:styles'"
+
+		"compile:styles:prefix": "postcss -u autoprefixer -r build/bundle.css",
+
+		"compile:styles": "node-sass styles/entry.scss styles/bundle.css",
+
+		"styles": "parallelshell 'npm run compile:styles' 'npm run compile:styles:prefix'",
+
+		"serve": "browser-sync start -p plebanlaw:4000 --files 'styles/*.css' 'build/bundle.js' '**/*.php'",
+
+		"js:compile": "webpack",
+
+		"watch:js": "nodemon --watch scripts --ext js --exec 'npm run js:compile'",
+
+		"watch:styles": "nodemon --watch styles --ext scss --exec 'npm run styles'",
+
+		"watch": "parallelshell 'npm run watch:styles' 'npm run watch:js' 'npm run serve'",
+
+		"start": "npm run watch"
+
   },
   "repository": {
     "type": "git",
@@ -20,10 +33,15 @@
   "dependencies": {},
   "devDependencies": {
     "autoprefixer": "^6.7.6",
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2015": "^6.24.0",
     "browser-sync": "^2.18.8",
+    "jquery": "^3.2.1",
     "node-sass": "^4.5.0",
     "nodemon": "^1.11.0",
     "parallelshell": "^2.0.0",
-    "postcss-cli": "^3.0.0-beta"
+    "postcss-cli": "^3.0.0-beta",
+    "webpack": "^2.3.2"
   }
 }

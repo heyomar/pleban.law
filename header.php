@@ -14,7 +14,7 @@
 		<!-- <title><?php wp_title(); ?></title> -->
 
 		<!-- CSS -->
-		<link href="<?php echo get_stylesheet_directory_uri(); ?>/styles/bundle.css" rel="stylesheet">
+		<link href="<?php echo get_stylesheet_directory_uri(); ?>/build/bundle.css" rel="stylesheet">
 
 		<?php wp_head(); ?>
 

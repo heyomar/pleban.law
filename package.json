@@ -7,11 +7,11 @@
 
 		"compile:styles:prefix": "postcss -u autoprefixer -r build/bundle.css",
 
-		"compile:styles": "node-sass styles/entry.scss styles/bundle.css",
+		"compile:styles": "node-sass styles/entry.scss build/bundle.css",
 
 		"styles": "parallelshell 'npm run compile:styles' 'npm run compile:styles:prefix'",
 
-		"serve": "browser-sync start -p plebanlaw:4000 --files 'styles/*.css' 'build/bundle.js' '**/*.php'",
+		"serve": "browser-sync start -p plebanlaw:4000 --files 'build/*.css' 'build/bundle.js' '**/*.php'",
 
 		"js:compile": "webpack",
 

@@ -15,13 +15,16 @@
 							<div class="contact">
 								<a class="link no-border" href="">
 									<object class="icon" type="image/svg+xml" data="<?php echo get_stylesheet_directory_uri(); ?>/assets/footer__icon-phone.svg"></object>
-									314.645.6666</a>
+									314.645.6666
+								</a>
 								<a class="link no-border" href="">
 									<object class="icon" type="image/svg+xml" data="<?php echo get_stylesheet_directory_uri(); ?>/assets/footer__icon-fax.svg"></object>
-									314.645.7376</a>
+									314.645.7376
+								</a>
 								<a class="link no-border" href="#">
 									<object class="icon" type="image/svg+xml" data="<?php echo get_stylesheet_directory_uri(); ?>/assets/footer__icon-email.svg"></object>
-									info@plebanlaw.com</a>
+									info@plebanlaw.com
+								</a>
 							</div>
 						</div>
 					</div>

@@ -1,18 +1,72 @@
 nav {
 	position: relative;
-	top: 50px;
+	top: 30px;
 	height: 0;
 	text-align: center;
 	color: $white;
 	z-index: 100;
-	ul {
-		li {
-			display: inline-block;
-		}
+}
+
+
+
+
+.menu-header-navigation-container {
+	background-color: $offblack;
+	padding: 80px 15px;
+	position: absolute;
+	right: -350px;
+	height: 1000px;
+	width: 300px;
+	top: -40px;
+
+
+	.menu-item {
+		display: block;
+		text-align: right;
+		padding: 10px;
+	}
+}
+
+
+
+
+.site-logo {
+	position: relative;
+	.logo {
+		height: 40px;
+		position: absolute;
+		padding-left: 25px;
+		left: 0;
+		top: 0;
+	}
+}
+
+.hamburger {
+	position: relative;
+	z-index: 100;
+	cursor: pointer;
+
+	.position {
+		width: 30px;
+		position: absolute;
+		padding: 10px 25px 15px 0;
 	}
 
-	a {
-		border-bottom: none;
-		padding: 10px;
+	.bars {	
+		right: 0;
+		top: 0;
+	}
+
+	.cross {
+		right: -80px;
+		top: -5px;
+	}
+
+}
+
+
+@media screen and (min-width:910px) {
+	.menu-header-navigation-container {
+		display: inline-block;
 	}
 }

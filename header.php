@@ -10,8 +10,6 @@
 		<script src="https://use.typekit.net/xqo1dlx.js"></script>
 		<script>try{Typekit.load({ async: true });}catch(e){}</script>
 
-		<!-- TITLE -->
-		<!-- <title><?php wp_title(); ?></title> -->
 
 		<!-- CSS -->
 		<link href="<?php echo get_stylesheet_directory_uri(); ?>/build/bundle.css" rel="stylesheet">
@@ -21,6 +19,20 @@
 	</head>
 	<body <?php body_class(); ?>>
 		<nav role="navigation">
+
+			<div class="site-logo">
+				<a class="" href="/">
+					<img class="logo" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/site__logo.svg" alt="">
+				</a>
+			</div>
+
+			<div class="hamburger">
+				<img class="bars position" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/site__mobile-bars.svg" alt="">
+				<img class="cross position" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/site__mobile-cross.svg" alt="">
+			</div>
+
+
+
 			<?php wp_nav_menu( array( 'theme_location' => 'primary-navigation' ) ); ?>
 		</nav>
 	<main>

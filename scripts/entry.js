@@ -1,4 +1,8 @@
 'use strict'
-import hello from './vendor/test.js';
 
-hello();
+import $ from 'jquery'
+window.jQuery = window.$ = $
+
+import navigation from './navigation.js';
+
+navigation();

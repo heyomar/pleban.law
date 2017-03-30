@@ -17,7 +17,6 @@ nav {
 	width: 300px;
 	top: -40px;
 
-
 	.menu-item {
 		display: block;
 		text-align: right;
@@ -40,13 +39,13 @@ nav {
 
 .hamburger {
 	position: relative;
-	z-index: 100;
 	cursor: pointer;
 
 	.position {
 		width: 30px;
 		position: absolute;
 		padding: 10px 25px 15px 0;
+		z-index: 5;
 	}
 
 	.bars {

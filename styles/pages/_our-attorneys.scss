@@ -1,4 +1,4 @@
-.our-attorneys {
+.our-attorneys, .single-attorney {
 	.hero {
 		background-image: url('../assets/ourattorneys__hero-bg.jpg');
 	}
@@ -10,8 +10,8 @@
 	position: relative;
 	text-align: center;
 	color: $white;
-	background-image: url('http://placehold.it/500x400');
-	@include cover;
+	background-position: center;
+	background-repeat: no-repeat;
 	margin: 25px;
 
 	.name {

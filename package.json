@@ -11,7 +11,7 @@
 
 		"styles": "parallelshell 'npm run compile:styles' 'npm run compile:styles:prefix'",
 
-		"serve": "browser-sync start -p plebanlaw:4000 --files 'build/*.css' 'build/bundle.js' '**/*.php'",
+		"serve": "browser-sync start -p plebanlaw:3000 --files 'build/*.css' 'build/bundle.js' '**/*.php'",
 
 		"js:compile": "webpack",
 

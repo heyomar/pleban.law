@@ -75,7 +75,7 @@
 		</div>
 	</div>
 </div>
-
+<?php wp_reset_query(); ?>
 	<?php endwhile; ?>
 	<?php endif ?>
 <?php get_footer(); ?>

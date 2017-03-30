@@ -5,6 +5,7 @@
 	.hero {
 		background-image: url('../assets/home__hero-bg.jpg');
 	}
+
 }
 
 
@@ -15,6 +16,18 @@
 .case-results {
 	background-color: $offwhite;
 	padding: 80px 20px;
+
+
+	.inner {
+		position: relative;
+	}
+
+	.readmore {
+		text-align: right;
+		display: inline-block;
+		position: absolute;
+		right: 0;
+	}
 }
 
 

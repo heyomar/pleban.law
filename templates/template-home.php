@@ -157,24 +157,32 @@
 				</div>
 			</div>
 
-			<div class="col-xs-12 col-sm-4 col-md-3">
-				<div class="content">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-				</div>
-			</div>
+			<?php
 
-			<div class="col-xs-12 col-sm-4 col-md-3">
-				<div class="content">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-				</div>
-			</div>
+				$args = array(
+					'orderby' => 'date',
+					'posts_per_page' 	=> '3',
+					'order'						=> 'DESC',
+					'post_type'				=> 'post',
+					'post_status'			=> 'publish',
+					'category_name'  => 'case-results'
 
-			<div class="col-xs-12 col-sm-4 col-md-3">
-				<div class="content">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				);
+				$the_query = new WP_Query( $args );?>
+			<?php if ( $the_query->have_posts() ) : while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
+				<div class="col-xs-12 col-sm-4 col-md-3">
+					<div class="content">
+						<h3><?php the_title(); ?></h3>
+						<?php the_excerpt(); ?>
+					</div>
 				</div>
-			</div>
+
+			<?php endwhile; ?>
+
+			<?php endif;?>
+
 		</div>
+		<a class="readmore" href="/news">More Case Results</a>
 	</div>
 </div>
 <!--

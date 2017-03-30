@@ -12,21 +12,30 @@
 				<div class="row">
 					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 						<div class="content">
-							<h1 class="header"><?php the_title(); ?></h1>
+							<h1 class="header">Practice Areas</h1>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 
-		<div class="practice-area">
+		<div class="practice-area mxw-960">
 			<div class="inner">
+				<h3><?php the_title(); ?></h3>
 				<div class="row">
-					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-						<div class="content">
+					<?php if( have_rows('section') ):
+						while ( have_rows('section') ) : the_row(); ?>
+						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 
+							<div class="content">
+								<h5><?php the_sub_field('section_title'); ?></h5>
+								<?php the_sub_field('section_copy'); ?><br>
+							</div>
 						</div>
-					</div>
+
+					<?php endwhile; ?>
+					<?php else : endif; ?>
+
 				</div>
 			</div>
 		</div>

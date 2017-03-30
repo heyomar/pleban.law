@@ -2,8 +2,24 @@
 	.profile-image {
 		width: 100%;
 	}
-}
 
+	.list {
+		padding: 0;
+		margin-left: 15px;
+
+		li {
+			padding-bottom: 8px;
+		}
+	}
+
+	.title {
+		text-transform: uppercase;
+	}
+
+	p {
+		margin: 0;
+	}
+}
 
 .message-btn {
 	border: 3px solid $offblack;
@@ -15,5 +31,13 @@
 	&:hover {
 		background-color: $offblack;
 		color: $white;
+	}
+}
+
+
+
+@media #{$tablet} {
+	.right-column {
+		padding: 0 40px;
 	}
 }

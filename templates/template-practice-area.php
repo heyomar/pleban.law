@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Our Firm
+ * Template Name: Practice Area
  */
 ?>
 

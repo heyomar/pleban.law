@@ -7,11 +7,19 @@ function navigation() {
 				$('.cross').animate({right:'-80px'}, 'fast');
 				$('.bars').animate({right:'0px'}, 'fast');
 		} else {
-				$('body, html').css({'overflow-y': 'hidden'});
+				$('body, html').css({'overflow-y': 'auto'});
 				$('.menu-header-navigation-container').animate({right:'0px'});
 				$('.cross').animate({right:'0px'});
 				$('.bars').animate({right:'-80px'}, 'fast');
 				$('.menu-header-navigation-container').addClass('menu-open');
+		}
+	})
+
+	$(window).resize(function () {
+		if (window.innerWidth >= 860) {
+			$('.menu-header-navigation-container').css('right', '25px')
+		}else {
+			$('.menu-header-navigation-container').css('right', '-350px')
 		}
 	})
 }

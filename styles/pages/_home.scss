@@ -57,8 +57,8 @@
 // MEDIA QUIRIES
 //––––––––––––––––––––––––––––––
 @media #{$tablet} {
-	.hero {
-		min-height: 700px;
+	.home .hero {
+		min-height: 850px;
 	}
 
 	.injury {

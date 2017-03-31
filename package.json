@@ -4,25 +4,15 @@
   "description": "",
   "main": "index.php",
   "scripts": {
-
-		"compile:styles:prefix": "postcss -u autoprefixer -r build/bundle.css",
-
-		"compile:styles": "node-sass styles/entry.scss build/bundle.css",
-
-		"styles": "parallelshell 'npm run compile:styles' 'npm run compile:styles:prefix'",
-
-		"serve": "browser-sync start -p plebanlaw:3000 --files 'build/*.css' 'build/bundle.js' '**/*.php'",
-
-		"js:compile": "webpack",
-
-		"watch:js": "nodemon --watch scripts --ext js --exec 'npm run js:compile'",
-
-		"watch:styles": "nodemon --watch styles --ext scss --exec 'npm run styles'",
-
-		"watch": "parallelshell 'npm run watch:styles' 'npm run watch:js' 'npm run serve'",
-
-		"start": "npm run watch"
-
+    "compile:styles:prefix": "postcss -u autoprefixer -r build/bundle.css --map",
+    "compile:styles": "node-sass styles/entry.scss build/bundle.css --source-map-root file://${PWD}/ --source-map-embed true",
+    "styles": "parallelshell 'npm run compile:styles' 'npm run compile:styles:prefix'",
+    "serve": "browser-sync start -p plebanlaw:3000 --files 'build/*.css' 'build/bundle.js' '**/*.php'",
+    "js:compile": "webpack",
+    "watch:js": "nodemon --watch scripts --ext js --exec 'npm run js:compile'",
+    "watch:styles": "nodemon --watch styles --ext scss --exec 'npm run styles'",
+    "watch": "parallelshell 'npm run watch:styles' 'npm run watch:js' 'npm run serve'",
+    "start": "npm run watch"
   },
   "repository": {
     "type": "git",
@@ -40,6 +30,7 @@
     "jquery": "^3.2.1",
     "node-sass": "^4.5.0",
     "nodemon": "^1.11.0",
+    "owl.carousel": "^2.2.0",
     "parallelshell": "^2.0.0",
     "postcss-cli": "^3.0.0-beta",
     "webpack": "^2.3.2"

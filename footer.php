@@ -36,7 +36,7 @@
 		<div class="secondary mxw-960">
 			<div class="inner">
 				<div class="row">
-					<div class="col-xs-12 col-sm-4 col-md-4">
+					<div class="col-xs-12 col-sm-3 col-md-3">
 						<div class="content">
 							<div class="footernav">
 								<?php wp_nav_menu( array( 'theme_location' => 'secondary-navigation' ) ); ?>
@@ -44,7 +44,7 @@
 						</div>
 					</div>
 
-					<div class="col-xs-12 col-sm-4 col-md-4">
+					<div class="col-xs-12 col-sm-6 col-md-6">
 						<div class="content">
 							<div class="signup">
 								<h6 class="footer-section">Newsletter Sign&#8209;Up</h6>
@@ -53,7 +53,7 @@
 						</div>
 					</div>
 
-					<div class="col-xs-12 col-sm-4 col-md-4">
+					<div class="col-xs-12 col-sm-3 col-md-3">
 						<div class="content">
 							<div class="location">
 								<h6 class="footer-section">Location</h6>

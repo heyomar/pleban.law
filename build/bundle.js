@@ -9910,24 +9910,32 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
 
 
 Object.defineProperty(exports, "__esModule", {
-		value: true
+	value: true
 });
 function navigation() {
-		$('.bars, .cross').on('click', function () {
-				if ($('.menu-open')[0]) {
-						$('body, html').css({ 'overflow-y': 'scroll' });
-						$('.menu-header-navigation-container').removeClass('menu-open');
-						$('.menu-header-navigation-container').animate({ right: '-350px' });
-						$('.cross').animate({ right: '-80px' }, 'fast');
-						$('.bars').animate({ right: '0px' }, 'fast');
-				} else {
-						$('body, html').css({ 'overflow-y': 'hidden' });
-						$('.menu-header-navigation-container').animate({ right: '0px' });
-						$('.cross').animate({ right: '0px' });
-						$('.bars').animate({ right: '-80px' }, 'fast');
-						$('.menu-header-navigation-container').addClass('menu-open');
-				}
-		});
+	$('.bars, .cross').on('click', function () {
+		if ($('.menu-open')[0]) {
+			$('body, html').css({ 'overflow-y': 'scroll' });
+			$('.menu-header-navigation-container').removeClass('menu-open');
+			$('.menu-header-navigation-container').animate({ right: '-350px' });
+			$('.cross').animate({ right: '-80px' }, 'fast');
+			$('.bars').animate({ right: '0px' }, 'fast');
+		} else {
+			$('body, html').css({ 'overflow-y': 'auto' });
+			$('.menu-header-navigation-container').animate({ right: '0px' });
+			$('.cross').animate({ right: '0px' });
+			$('.bars').animate({ right: '-80px' }, 'fast');
+			$('.menu-header-navigation-container').addClass('menu-open');
+		}
+	});
+
+	$(window).resize(function () {
+		if (window.innerWidth >= 860) {
+			$('.menu-header-navigation-container').css('right', '25px');
+		} else {
+			$('.menu-header-navigation-container').css('right', '-350px');
+		}
+	});
 }
 
 exports.default = navigation;
@@ -9980,6 +9988,9 @@ var _navigation2 = _interopRequireDefault(_navigation);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 window.jQuery = window.$ = _jquery2.default;
+
+// import owl from 'owl.carousel';
+
 
 (0, _navigation2.default)();
 

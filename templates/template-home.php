@@ -16,7 +16,11 @@
 				<div class="row">
 					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 						<div class="content">
-									<?php the_field("slider"); ?>
+							<div class="carousel">
+							  <div class="slide-one">Agressive <br> <span class="plus">&plus;</span> <br>Experienced</div>
+								<div class="slide-one">Lorem <br> <span class="plus">&plus;</span> <br>Words</div>
+							</div>
+
 						</div>
 					</div>
 				</div>
@@ -26,8 +30,6 @@
 <!--
 		Form
 ------------------------------------------------------------------------------->
-
-
 
 
 
@@ -44,6 +46,7 @@
 					<h1 class="title"><?php the_field('pa_title'); ?></h1>
 					<div class="copy mxw-700">
 						<?php the_field('pa_copy'); ?>
+
 					</div>
 				</div>
 			</div>

@@ -17,11 +17,11 @@ function navigation() {
 
 	$(window).resize(function () {
 		if (window.innerWidth >= 860) {
-			$('.menu-header-navigation-container').css('right', '25px')
+			$('.menu-header-navigation-container').css('right', '25px');
 		}else {
-			$('.menu-header-navigation-container').css('right', '-350px')
+			$('.menu-header-navigation-container').css('right', '-350px');
 		}
-	})
+	});
 }
 
 export default navigation

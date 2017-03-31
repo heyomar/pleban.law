@@ -3,12 +3,11 @@
 import $ from 'jquery';
 window.jQuery = window.$ = $
 
-
-// import owl from 'owl.carousel';
-
-
-import navigation from './navigation.js';
+import slick from 'slick-carousel';
+import slickoptions from './slickoptions';
 
 
+import navigation from './navigation';
 
+slickoptions();
 navigation();

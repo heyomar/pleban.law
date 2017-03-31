@@ -89,5 +89,6 @@
 </main>
 <?php wp_footer(); ?>
 <script defer src="<?php echo get_stylesheet_directory_uri(); ?>/build/bundle.js" type="text/javascript"></script>
+
 </body>
 </html>

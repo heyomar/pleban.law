@@ -63,7 +63,7 @@
 /******/ 	__webpack_require__.p = "/build/";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 5);
+/******/ 	return __webpack_require__(__webpack_require__.s = 6);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -9900,7 +9900,7 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
 
 	return jQuery;
 });
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(4)(module)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(5)(module)))
 
 /***/ }),
 /* 1 */
@@ -12554,6 +12554,31 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
 Object.defineProperty(exports, "__esModule", {
 	value: true
 });
+function consultationForm() {
+
+	$('.bar, .form-cross').on('click', function () {
+		if ($('.form-closed')[0]) {
+			$('.form-ctn').removeClass('form-closed');
+			$('.form-ctn').slideDown();
+		} else {
+			$('.form-ctn').addClass('form-closed');
+			$('.form-ctn').slideUp();
+		}
+	});
+}
+
+exports.default = consultationForm;
+
+/***/ }),
+/* 3 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+	value: true
+});
 function navigation() {
 	$('.bars, .cross').on('click', function () {
 		if ($('.menu-open')[0]) {
@@ -12583,7 +12608,7 @@ function navigation() {
 exports.default = navigation;
 
 /***/ }),
-/* 3 */
+/* 4 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12606,7 +12631,7 @@ function slickoptions() {
 exports.default = slickoptions;
 
 /***/ }),
-/* 4 */
+/* 5 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12636,7 +12661,7 @@ module.exports = function (module) {
 };
 
 /***/ }),
-/* 5 */
+/* 6 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12650,20 +12675,25 @@ var _slickCarousel = __webpack_require__(1);
 
 var _slickCarousel2 = _interopRequireDefault(_slickCarousel);
 
-var _slickoptions = __webpack_require__(3);
+var _slickOptions = __webpack_require__(4);
 
-var _slickoptions2 = _interopRequireDefault(_slickoptions);
+var _slickOptions2 = _interopRequireDefault(_slickOptions);
 
-var _navigation = __webpack_require__(2);
+var _navigation = __webpack_require__(3);
 
 var _navigation2 = _interopRequireDefault(_navigation);
+
+var _consultationForm = __webpack_require__(2);
+
+var _consultationForm2 = _interopRequireDefault(_consultationForm);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 window.jQuery = window.$ = _jquery2.default;
 
-(0, _slickoptions2.default)();
+(0, _slickOptions2.default)();
 (0, _navigation2.default)();
+(0, _consultationForm2.default)();
 
 /***/ })
 /******/ ]);

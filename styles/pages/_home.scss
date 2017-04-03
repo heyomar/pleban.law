@@ -4,8 +4,8 @@
 .home {
 	.hero {
 		background-image: url('../assets/home__hero-bg.jpg');
+		margin-bottom: 0;
 	}
-
 }
 
 
@@ -84,26 +84,24 @@
 
 
 
+
+//––
+// SLIDER
+//––––––––––––––––––––––––––––––
 .frs-slideshow-container .frs-slideshow-content {
 		background: transparent url('') !important;
 }
 
-
-
-.carousel {
-
-
-
-}
+.carousel {}
 
 .slide-one {
-
 	text-align: center;
 	color: $white;
 	text-transform: uppercase;
 	font-size: 4rem;
 	font-weight: 600;
 	position: relative;
+
 	.plus {
 		font-size: 10rem;
 		font-weight: bold;
@@ -113,7 +111,6 @@
 		transform: translate(-50%, -50%);
 		color: $offblack;
 		line-height: normal;
-
 	}
 }
 
@@ -128,4 +125,87 @@
 
 .slick-prev,.slick-next {
 	display: none !important;
+}
+
+
+
+//––
+// CONSULTATION FORM
+//––––––––––––––––––––––––––––––
+.consultation-form {
+	background-color: $offblack;
+	margin-bottom: 40px;
+	display: block;
+
+	.copy {
+		font-size: 1.8rem;
+		color: $white;
+		padding: 30px 10px;
+		text-align: center;
+		font-weight: 600;
+		position: relative;
+
+		.number {
+			color: $green;
+			font-size: 2.4rem;
+		}
+
+		.or {
+			padding: 5px;
+			border-radius: 100px;
+			color: $darkgray;
+			background-color: $gray;
+			margin: 0 8px;
+			font-weight: bold;
+		}
+
+		.form-cross {
+			position: absolute;
+			right: 0;
+			top: 0;
+			display: block;
+			width: 25px;
+			background-color: $gray;
+			padding: 8px;
+			cursor: pointer;
+		}
+	}
+
+	.bar {
+		color: $gray;
+		text-align: center;
+		font-size: 1.8rem;
+		padding: 10px 5px;
+		border-bottom: 2px solid $gray;
+		cursor: pointer;
+	}
+
+	.copy-mobile .or {
+		position: relative;
+		z-index: 6;
+		border:8px solid $offblack;
+
+		&::before {
+			content:'';
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			width: 200px;
+			background-color: $gray;
+			z-index: -1;
+			height: 3px;
+		}
+	}
+
+}
+
+@media #{$tablet} {
+	.home .hero {
+		margin-bottom: 50px;
+	}
+
+	.consultation-form {
+		display: none;
+	}
 }

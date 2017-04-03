@@ -4,10 +4,11 @@ import $ from 'jquery';
 window.jQuery = window.$ = $
 
 import slick from 'slick-carousel';
-import slickoptions from './slickoptions';
-
+import slickOptions from './slickOptions';
 
 import navigation from './navigation';
+import consultationForm from './consultationForm';
 
-slickoptions();
+slickOptions();
 navigation();
+consultationForm();

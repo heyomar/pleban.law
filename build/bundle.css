@@ -1352,6 +1352,30 @@ textarea {
 input[type=submit] {
   border: 1px solid red; }
 
+.searchform {
+  text-align: center;
+  position: relative;
+  margin-top: 30px; }
+  .searchform .copy {
+    font-size: 2.0rem;
+    color: #ffffff;
+    padding-bottom: 15px; }
+  .searchform form {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -40px; }
+    .searchform form input {
+      -webkit-appearance: none;
+         -moz-appearance: none;
+              appearance: none;
+      width: 300px;
+      border: 2px solid #ffffff;
+      background-color: transparent;
+      color: #ffffff; }
+      .searchform form input:focus {
+        outline: 0; }
+
 nav {
   position: relative;
   top: 30px;
@@ -1517,7 +1541,7 @@ footer {
 .home .hero {
   background-image: url("../assets/home__hero-bg.jpg"); }
 
-.home .hero {
+.home .hero, .search .hero {
   background-image: url("../assets/home__hero-bg.jpg");
   margin-bottom: 0; }
 
@@ -1639,6 +1663,14 @@ footer {
       background-color: #494a49;
       z-index: -1;
       height: 3px; }
+  .consultation-form label {
+    color: #ffffff; }
+  .consultation-form input {
+    background-color: #2d2d2d;
+    color: #ffffff; }
+  .consultation-form textarea {
+    background-color: #2d2d2d;
+    color: #ffffff; }
 
 @media screen and (min-width: 768px) {
   .home .hero {

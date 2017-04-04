@@ -12555,7 +12555,6 @@ Object.defineProperty(exports, "__esModule", {
 	value: true
 });
 function consultationForm() {
-
 	$('.bar, .form-cross').on('click', function () {
 		if ($('.form-closed')[0]) {
 			$('.form-ctn').removeClass('form-closed');

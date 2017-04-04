@@ -1,0 +1,30 @@
+.searchform {
+	text-align: center;
+	position: relative;
+	margin-top: 30px;
+
+	.copy {
+		font-size: 2.0rem;
+		color: $white;
+		padding-bottom: 15px;
+	}
+
+	form {
+		position: absolute;
+		left: 0;
+		right: 0;
+		bottom: -40px;
+
+		input {
+			appearance: none;
+			width: 300px;
+			border: 2px solid $white;
+			background-color: transparent;
+			color: $white;
+
+			&:focus {
+				outline: 0;
+			}
+		}
+	}
+}

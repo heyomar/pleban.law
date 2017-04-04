@@ -1,7 +1,7 @@
 //––
 // HERO
 //––––––––––––––––––––––––––––––
-.home {
+.home, .search{
 	.hero {
 		background-image: url('../assets/home__hero-bg.jpg');
 		margin-bottom: 0;
@@ -198,6 +198,19 @@
 		}
 	}
 
+	label {
+		color: $white;
+	}
+
+	input {
+		background-color: #2d2d2d;
+		color: $white;
+	}
+
+	textarea {
+		background-color: #2d2d2d;
+		color: $white;
+	}
 }
 
 @media #{$tablet} {

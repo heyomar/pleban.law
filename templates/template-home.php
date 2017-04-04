@@ -21,6 +21,11 @@
 								<div class="slide-one">Lorem <br> <span class="plus">&plus;</span> <br>Words</div>
 							</div>
 
+							<div class="searchform">
+								<div class="copy">How can we help you?</div>
+								<?php get_search_form(); ?>
+							</div>
+
 						</div>
 					</div>
 				</div>
@@ -30,7 +35,7 @@
 <!--
 		Form
 ------------------------------------------------------------------------------->
-<div class="consultation-form mxw-960">
+<div class="consultation-form mxw-960 room-sides">
 	<div class="inner">
 		<div class="row">
 
@@ -44,11 +49,10 @@
 
 			<div class="col-xs-12 col-sm-12 col-md-12 form-ctn">
 				<div class="content">
-
+					.div
 					<div class="copy">
 						<div class="hide-mobile">
 							Call Us At&nbsp;&nbsp;<span class="number">(314)645-6666</span> <span class="or">or</span> Fill Out the Form Below</div>
-						<img class="form-cross" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/site__close.png" alt="">
 						<div class="copy-mobile">
 							<div class="row">
 								<div class="col-xs-12">
@@ -64,12 +68,12 @@
 								</div>
 							</div>
 						</div>
+
 					</div>
 
 					<div class="form">
 						<div class="row">
-
-
+							<?php the_field('consultation_form_shortcode'); ?>
 						</div>
 					</div>
 

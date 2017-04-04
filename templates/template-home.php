@@ -35,7 +35,7 @@
 <!--
 		Form
 ------------------------------------------------------------------------------->
-<div class="consultation-form mxw-960 room-sides">
+<div class="consultation-form mxw-960 ">
 	<div class="inner">
 		<div class="row">
 
@@ -47,7 +47,7 @@
 				</div>
 			</div>
 
-			<div class="col-xs-12 col-sm-12 col-md-12 form-ctn">
+			<div class="col-xs-12 col-sm-12 col-md-12 form-ctn room-sides">
 				<div class="content">
 					.div
 					<div class="copy">

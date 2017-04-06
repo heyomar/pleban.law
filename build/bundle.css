@@ -1509,11 +1509,17 @@ input[type=submit] {
         right: 13px; }
 
 nav {
-  position: relative;
+  position: absolute;
   top: 30px;
-  text-align: center;
   color: #ffffff;
-  z-index: 100; }
+  z-index: 100;
+  width: 100%;
+  left: 0;
+  right: 0;
+  height: 60px; }
+
+.navigation {
+  position: relative; }
 
 .menu-header-navigation-container {
   background-color: #231f20;
@@ -1529,10 +1535,13 @@ nav {
     padding: 10px; }
 
 .site-logo {
-  position: relative; }
+  position: relative;
+  z-index: 99;
+  width: 230px;
+  height: 50px; }
   .site-logo .logo {
-    height: 40px;
     position: absolute;
+    height: 40px;
     padding-left: 25px;
     left: 0;
     top: 0; }

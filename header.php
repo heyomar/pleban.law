@@ -20,11 +20,11 @@
 	<body <?php body_class(); ?>>
 		<nav role="navigation">
 
-			<div class="site-logo">
-				<a class="" href="/">
-					<img class="logo" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/site__logo.svg" alt="">
-				</a>
-			</div>
+			<div class="navigation">
+
+					<a class="site-logo" href="/">
+						<img class="logo" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/site__logo.svg" alt="">
+					</a>
 
 			<div class="hamburger">
 				<img class="bars position" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/site__mobile-bars.svg" alt="">
@@ -32,5 +32,6 @@
 			</div>
 
 			<?php wp_nav_menu( array( 'theme_location' => 'primary-navigation' ) ); ?>
+		</div>
 		</nav>
 	<main>

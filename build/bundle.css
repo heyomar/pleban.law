@@ -1459,6 +1459,16 @@ input[type=submit] {
 .slick-prev, .slick-next {
   display: none !important; }
 
+.search .hero {
+  background-image: url("../assets/home__hero-bg.jpg");
+  margin-bottom: 50;
+  min-height: 600px; }
+
+.noresults {
+  text-align: center; }
+  .noresults .title {
+    color: #4ea995; }
+
 .searchform {
   text-align: center;
   position: relative;
@@ -1479,9 +1489,24 @@ input[type=submit] {
       width: 300px;
       border: 2px solid #ffffff;
       background-color: transparent;
-      color: #ffffff; }
+      color: #ffffff;
+      position: relative;
+      padding-right: 35px; }
       .searchform form input:focus {
         outline: 0; }
+    .searchform form .fieldspan {
+      position: relative; }
+      .searchform form .fieldspan:after {
+        background-image: url("../assets/search__magnify-icon.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        width: 17px;
+        height: 17px;
+        position: absolute;
+        content: '';
+        top: -2px;
+        right: 13px; }
 
 nav {
   position: relative;
@@ -1647,7 +1672,7 @@ footer {
 .home .hero {
   background-image: url("../assets/home__hero-bg.jpg"); }
 
-.home .hero, .search .hero {
+.home .hero {
   background-image: url("../assets/home__hero-bg.jpg");
   margin-bottom: 0;
   min-height: 675px; }

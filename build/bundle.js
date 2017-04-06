@@ -63,7 +63,7 @@
 /******/ 	__webpack_require__.p = "/build/";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 6);
+/******/ 	return __webpack_require__(__webpack_require__.s = 7);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -9900,7 +9900,7 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
 
 	return jQuery;
 });
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(5)(module)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(6)(module)))
 
 /***/ }),
 /* 1 */
@@ -12634,6 +12634,24 @@ exports.default = slickoptions;
 "use strict";
 
 
+Object.defineProperty(exports, "__esModule", {
+	value: true
+});
+function smallHelp() {
+
+	// Add span around search input field on homepage to add magnifying glass icon
+	$('#searchform').wrapInner("<span class='fieldspan'></span>");
+}
+
+exports.default = smallHelp;
+
+/***/ }),
+/* 6 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
 module.exports = function (module) {
 	if (!module.webpackPolyfill) {
 		module.deprecate = function () {};
@@ -12658,7 +12676,7 @@ module.exports = function (module) {
 };
 
 /***/ }),
-/* 6 */
+/* 7 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12684,6 +12702,10 @@ var _consultationForm = __webpack_require__(2);
 
 var _consultationForm2 = _interopRequireDefault(_consultationForm);
 
+var _smallHelp = __webpack_require__(5);
+
+var _smallHelp2 = _interopRequireDefault(_smallHelp);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 window.jQuery = window.$ = _jquery2.default;
@@ -12691,6 +12713,7 @@ window.jQuery = window.$ = _jquery2.default;
 (0, _slickOptions2.default)();
 (0, _navigation2.default)();
 (0, _consultationForm2.default)();
+(0, _smallHelp2.default)();
 
 /***/ })
 /******/ ]);

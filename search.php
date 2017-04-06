@@ -25,14 +25,18 @@ get_header(); ?>
 				<div class="content">
 					<?php if (have_posts()) : ?>
 
-						<h1 class="page-title"><?php printf(__('Results for: %s'), '<span>' . get_search_query() . '</span>'); ?></h1>
+						<h1 class="page-title"><?php printf(__('Results for: %s'), '<span>"' . get_search_query() . '"</span>'); ?></h1>
 
 						<?php while (have_posts()) : the_post(); ?>
-							<a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+							<a class="title" href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
 							<?php the_excerpt(); ?>
 							<hr>
 						<?php endwhile; ?>
 					<?php else : ?>
+						<div class="noresults">
+							<h2>Sorry, couldnt find matches for <?php printf('<span>"' . get_search_query() . '"</span>'); ?></h2>
+							<a class="btn" href="/">Go Home</a>
+						</div>
 					<?php endif; ?>
 				</div>
 			</div>
@@ -41,4 +45,4 @@ get_header(); ?>
 </div>
 
 
-<?php get_footer(); ?>
+<?php get_footer();

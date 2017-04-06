@@ -9,6 +9,9 @@ import slickOptions from './slickOptions';
 import navigation from './navigation';
 import consultationForm from './consultationForm';
 
+import smallHelp from './smallHelp';
+
 slickOptions();
 navigation();
 consultationForm();
+smallHelp();

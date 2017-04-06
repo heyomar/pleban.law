@@ -1,3 +1,20 @@
+.search{
+	.hero {
+		background-image: url('../assets/home__hero-bg.jpg');
+		margin-bottom: 50;
+		min-height: 600px;
+	}
+}
+
+.noresults {
+	text-align: center;
+
+	.title {
+		color: $green;
+	}
+}
+
+
 .searchform {
 	text-align: center;
 	position: relative;
@@ -21,9 +38,28 @@
 			border: 2px solid $white;
 			background-color: transparent;
 			color: $white;
+			position: relative;
+			padding-right: 35px;
 
 			&:focus {
 				outline: 0;
+			}
+		}
+
+		.fieldspan {
+			position: relative;
+
+			&:after {
+				background-image:url('../assets/search__magnify-icon.png');
+				background-repeat: no-repeat;
+				background-position: center;
+				background-size: contain;
+				width: 17px;
+				height: 17px;
+				position: absolute;
+				content: '';
+				top: -2px;
+				right: 13px;
 			}
 		}
 	}

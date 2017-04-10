@@ -103,8 +103,58 @@
 }
 
 
-@media #{$tablet} {
+@media screen and (min-width:960px) {
 	.consultation-form {
-		display: none;
+		display: block;
+		position: fixed;
+		top: 10%;
+		right: 0;
+		z-index: 110;
+		max-width: 365px;
+		padding:20px 0;
+
+		.copy {
+			padding: 0;
+		}
+
+		.bar {
+			display: none;
+		}
+
+		.nf-cell {
+			width: 100% !important;
+		}
+
+		.nf-field-container {
+			margin-bottom: 6px;
+		}
+
+		.nf-error-msg {
+			font-size: 10px;
+		}
+	}
+
+	.vbar {
+		position: absolute;
+		bottom: 0;
+		left: -40px;
+		width: 40px;
+		height: 100%;
+		background-color: $offblack;
+		border-right:1px solid $gray;
+		cursor: pointer;
+
+
+		.vertical {
+			width: 518px;
+			position: relative;
+			text-align: center;
+			right: -30px;
+			font-size: 18px;
+			transform: rotate(90deg);
+			transform-origin: left top 0;
+			color: #717171;
+
+		}
 	}
 }

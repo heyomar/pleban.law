@@ -36,6 +36,9 @@
 		Form
 ------------------------------------------------------------------------------->
 <div class="consultation-form mxw-960 ">
+	<div class="vbar">
+		<div class="vertical">Schedule a No Obligation Consultation</div>
+	</div>
 	<div class="inner">
 		<div class="row">
 
@@ -49,7 +52,7 @@
 
 			<div class="col-xs-12 col-sm-12 col-md-12 form-ctn room-sides">
 				<div class="content">
-					.div
+
 					<div class="copy">
 						<div class="hide-mobile">
 							Call Us At&nbsp;&nbsp;<span class="number">(314)645-6666</span> <span class="or">or</span> Fill Out the Form Below</div>

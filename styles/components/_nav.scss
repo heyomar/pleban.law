@@ -1,19 +1,14 @@
 nav {
-	position: absolute;
-	top: 30px;
+	position: relative;
 	color: $white;
 	z-index: 100;
 	width: 100%;
 	left: 0;
 	right: 0;
-	height: 60px;
+	top: 30px;
 
 }
 
-.navigation {
-	position: relative;
-
-}
 
 
 .menu-header-navigation-container {

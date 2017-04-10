@@ -26,12 +26,12 @@
 						<img class="logo" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/site__logo.svg" alt="">
 					</a>
 
-			<div class="hamburger">
-				<img class="bars position" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/site__mobile-bars.svg" alt="">
-				<img class="cross position" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/site__mobile-cross.svg" alt="">
-			</div>
+					<div class="hamburger">
+						<img class="bars position" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/site__mobile-bars.svg" alt="">
+						<img class="cross position" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/site__mobile-cross.svg" alt="">
+					</div>
 
-			<?php wp_nav_menu( array( 'theme_location' => 'primary-navigation' ) ); ?>
-		</div>
+					<?php wp_nav_menu( array( 'theme_location' => 'primary-navigation' ) ); ?>
+			</div>
 		</nav>
 	<main>

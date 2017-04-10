@@ -1509,17 +1509,13 @@ input[type=submit] {
         right: 13px; }
 
 nav {
-  position: absolute;
-  top: 30px;
+  position: relative;
   color: #ffffff;
   z-index: 100;
   width: 100%;
   left: 0;
   right: 0;
-  height: 60px; }
-
-.navigation {
-  position: relative; }
+  top: 30px; }
 
 .menu-header-navigation-container {
   background-color: #231f20;

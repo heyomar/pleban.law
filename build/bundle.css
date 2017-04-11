@@ -1627,18 +1627,19 @@ footer {
     font-size: 4rem;
     font-weight: bold;
     text-transform: uppercase;
-    margin-bottom: 125px;
+    margin-bottom: 50px;
     text-align: center; }
   footer .contact {
     margin-left: auto;
     margin-right: auto;
     max-width: 190px; }
     footer .contact .link {
-      margin-bottom: 5px;
-      display: block; }
+      margin-bottom: 13px;
+      display: block;
+      width: 200px; }
   footer .signup {
     border: 0;
-    padding: 20px 50px 100px;
+    padding: 20px 50px 40px;
     margin-bottom: 20px;
     text-align: center; }
   footer .location {
@@ -1648,13 +1649,14 @@ footer {
     footer .location address {
       padding-bottom: 15px; }
   footer .legal {
-    color: #494a49;
+    color: #717171;
     text-align: center; }
   footer .icon {
     height: auto;
-    width: 20px;
+    width: 30px;
     display: inline-block;
-    padding-right: 15px; }
+    padding-right: 15px;
+    vertical-align: middle; }
 
 .footer-section {
   color: #4ea995;
@@ -1674,7 +1676,8 @@ footer {
 
 @media screen and (min-width: 768px) {
   footer .title {
-    text-align: left; }
+    text-align: left;
+    margin-bottom: 125px; }
   footer .signup {
     border-right: 1px solid #494a49;
     border-left: 1px solid #494a49;
@@ -1685,6 +1688,8 @@ footer {
     text-align: left; }
   footer .contact {
     margin-right: 55px; }
+  footer .signup {
+    padding: 20px 50px 100px; }
   .footernav {
     text-align: left; } }
 
@@ -1938,6 +1943,9 @@ footer {
 .contact .hero {
   background-image: url(../assets/contact__hero-bg.jpg); }
 
+.contact span.ninja-forms-req-symbol {
+  color: #231f20; }
+
 .linkedin .icon {
   height: auto;
   width: 30px;
@@ -1946,7 +1954,17 @@ footer {
   margin-bottom: -9px; }
 
 .contact-details .content {
-  padding-bottom: 20px; }
+  padding-bottom: 20px;
+  font-size: 18px;
+  color: #494a49; }
+
+.contact-details strong {
+  font-size: 17px;
+  font-weight: bold;
+  color: #232323; }
+
+.contact-details address p {
+  margin: 0; }
 
 .contact-us .title {
   margin-bottom: 0;

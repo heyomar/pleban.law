@@ -2,6 +2,10 @@
 	.hero {
 		background-image: url(../assets/contact__hero-bg.jpg);
 	}
+
+	span.ninja-forms-req-symbol {
+	    color: $offblack;
+	}
 }
 
 .linkedin {
@@ -17,6 +21,20 @@
 .contact-details {
 	.content {
 		padding-bottom: 20px;
+		font-size: 18px;
+		color: $gray;
+	}
+
+	strong {
+		font-size: 17px;
+		font-weight: bold;
+		color: #232323;
+	}
+
+	address {
+		p {
+			margin: 0;
+		}
 	}
 }
 
@@ -45,6 +63,8 @@
 	width: 90% !important;
 	display: inline-block;
 }
+
+
 
 @media #{$tablet} {
 	.contact-details .content {

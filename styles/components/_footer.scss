@@ -4,14 +4,14 @@
 footer {
 	background-color: $darkgray;
 	color: $white;
-	padding: 40px 20px;
+	padding: 70px 20px 40px 20px;
 	margin-top: 50px;
 
 	.title {
 		font-size: 4rem;
 		font-weight: bold;
 		text-transform: uppercase;
-		margin-bottom: 40px;
+		margin-bottom: 125px;
 		text-align: center;
 	}
 
@@ -27,7 +27,7 @@ footer {
 
 	.signup {
 		border: 0;
-		padding: 20px 50px 80px;
+		padding: 20px 50px 100px;
 		margin-bottom: 20px;
 		text-align: center;
 	}
@@ -68,6 +68,7 @@ footer {
 	}
 	li {
 		list-style-type: none;
+		margin-bottom: 8px;
 	}
 	a {
 		border: 0;
@@ -98,6 +99,9 @@ footer {
 
 		.legal {
 			text-align: left;
+		}
+		.contact {
+			margin-right: 55px;
 		}
 	}
 

@@ -1227,7 +1227,6 @@ h5, h6 {
 
 html, body {
   -webkit-overflow-scrolling: touch;
-  height: 100%;
   color: #231f20;
   overflow-x: hidden; }
 
@@ -1424,6 +1423,10 @@ input[type=submit] {
   .consultation-form .nf-error-field-errors {
     display: none !important;
     text-align: center; }
+  .consultation-form .nf-response-msg {
+    text-align: center;
+    color: #ffffff;
+    padding-top: 30px; }
 
 @media screen and (min-width: 960px) {
   .consultation-form {
@@ -1433,7 +1436,8 @@ input[type=submit] {
     right: 0;
     z-index: 110;
     max-width: 365px;
-    padding: 20px 0; }
+    padding: 20px 0;
+    min-height: 518px; }
     .consultation-form .copy {
       padding: 0; }
     .consultation-form .bar {
@@ -1617,13 +1621,13 @@ nav {
 footer {
   background-color: #1e201f;
   color: #ffffff;
-  padding: 40px 20px;
+  padding: 70px 20px 40px 20px;
   margin-top: 50px; }
   footer .title {
     font-size: 4rem;
     font-weight: bold;
     text-transform: uppercase;
-    margin-bottom: 40px;
+    margin-bottom: 125px;
     text-align: center; }
   footer .contact {
     margin-left: auto;
@@ -1634,7 +1638,7 @@ footer {
       display: block; }
   footer .signup {
     border: 0;
-    padding: 20px 50px 80px;
+    padding: 20px 50px 100px;
     margin-bottom: 20px;
     text-align: center; }
   footer .location {
@@ -1661,7 +1665,8 @@ footer {
   .footernav ul {
     padding: 0; }
   .footernav li {
-    list-style-type: none; }
+    list-style-type: none;
+    margin-bottom: 8px; }
   .footernav a {
     border: 0;
     padding: 3px 0;
@@ -1678,6 +1683,8 @@ footer {
     text-align: left; }
   footer .legal {
     text-align: left; }
+  footer .contact {
+    margin-right: 55px; }
   .footernav {
     text-align: left; } }
 
@@ -1941,10 +1948,16 @@ footer {
 .contact-details .content {
   padding-bottom: 20px; }
 
+.contact-us .title {
+  margin-bottom: 0;
+  font-size: 30px;
+  color: #231f20; }
+
 .contact-us .copy {
-  font-size: 21px;
+  font-size: 23px;
   font-weight: 600;
-  padding: 25px 0; }
+  padding: 0 0 25px 0;
+  color: #494a49; }
 
 .nf-form-fields-required {
   display: none; }

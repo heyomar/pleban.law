@@ -22,10 +22,16 @@
 
 
 .contact-us {
+	.title {
+		margin-bottom: 0;
+		font-size: 30px;
+		color: #231f20;
+	}
 	.copy {
-		font-size: 21px;
+		font-size: 23px;
 		font-weight: 600;
-		padding: 25px 0;
+		padding: 0 0 25px 0;
+		color: #494a49;
 	}
 }
 

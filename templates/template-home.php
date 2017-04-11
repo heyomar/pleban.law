@@ -2,10 +2,8 @@
 /**
  * Template Name: Home
  */
-?>
 
-<!--END======================================================================-->
-<?php get_header(); ?>
+ get_header(); ?>
 
 
 <!--
@@ -35,7 +33,7 @@
 <!--
 		Form
 ------------------------------------------------------------------------------->
-<div class="consultation-form mxw-960 ">
+<div class="consultation-form mxw-960 side-closed">
 	<div class="vbar">
 		<div class="vertical">Schedule a No Obligation Consultation</div>
 	</div>

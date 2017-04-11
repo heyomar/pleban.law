@@ -20,7 +20,7 @@
 
 		<div class="contact-us mxw-960 room-sides">
 			<div class="inner">
-				<h1 class="title">Contact Us</h1>
+				<h3 class="title">Contact Us</h3>
 				<div class="row">
 					<div class="col-xs-12 col-sm-6">
 						<div class="content">

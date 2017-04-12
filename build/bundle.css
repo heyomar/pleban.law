@@ -1339,27 +1339,26 @@ hr {
 
 input {
   padding: 10px;
-  background-color: #f3f3f3;
+  background-color: #eee;
   border: 0; }
 
+input[type=checkbox] {
+  border: 1px solid red !important; }
+
 textarea {
-  background-color: #f3f3f3;
+  background-color: #eee;
   border: 0;
   padding: 10px;
   height: 120px !important; }
 
-input[type=submit] {
-  border: 1px solid red; }
-
 .consultation-form {
   background-color: #231f20;
   margin-bottom: 40px;
-  display: block;
-  padding-bottom: 20px; }
+  display: block; }
   .consultation-form .copy {
     font-size: 1.8rem;
     color: #ffffff;
-    padding: 30px 10px;
+    padding: 30px 10px 0 10px;
     text-align: center;
     font-weight: 600;
     position: relative; }
@@ -1386,9 +1385,13 @@ input[type=submit] {
     color: #494a49;
     text-align: center;
     font-size: 1.8rem;
-    padding: 10px 5px;
+    padding: 15px 5px;
     border-bottom: 2px solid #494a49;
     cursor: pointer; }
+    .consultation-form .bar .icon {
+      width: 20px;
+      margin-left: 8px;
+      vertical-align: middle; }
   .consultation-form .copy-mobile .or {
     position: relative;
     z-index: 6;
@@ -1427,6 +1430,9 @@ input[type=submit] {
     text-align: center;
     color: #ffffff;
     padding-top: 30px; }
+  .consultation-form .nf-form-cont {
+    max-width: 960px;
+    margin: 0 auto; }
 
 @media screen and (min-width: 960px) {
   .consultation-form {
@@ -1756,8 +1762,7 @@ footer {
 
 @media screen and (min-width: 768px) {
   .home .hero {
-    min-height: 850px;
-    margin-bottom: 50px; }
+    min-height: 850px; }
   .injury {
     min-height: 600px; }
   .employment {
@@ -1768,6 +1773,10 @@ footer {
     min-height: 295px; }
   .civil {
     min-height: 295px; } }
+
+@media screen and (min-width: 960px) {
+  .home .hero {
+    margin-bottom: 40px; } }
 
 .our-firm .hero {
   background-image: url("../assets/ourfirm__hero-bg.jpg"); }
@@ -1945,6 +1954,10 @@ footer {
 
 .contact span.ninja-forms-req-symbol {
   color: #231f20; }
+
+.contact .nf-field-label label {
+  text-transform: uppercase;
+  font-size: 15px; }
 
 .linkedin .icon {
   height: auto;

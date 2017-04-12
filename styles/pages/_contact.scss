@@ -6,6 +6,11 @@
 	span.ninja-forms-req-symbol {
 	    color: $offblack;
 	}
+
+	.nf-field-label label {
+		text-transform: uppercase;
+		font-size: 15px;
+	}
 }
 
 .linkedin {
@@ -31,11 +36,11 @@
 		color: #232323;
 	}
 
-	address {
-		p {
-			margin: 0;
-		}
+	address p {
+		margin: 0;
 	}
+
+
 }
 
 

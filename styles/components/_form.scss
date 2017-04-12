@@ -1,16 +1,16 @@
 input {
 	padding: 10px;
-	background-color: $offwhite;
+	background-color: #eee;
 	border: 0;
+}
+
+input[type=checkbox] {
+	border:1px solid red !important;
 }
 
 textarea {
-	background-color: $offwhite;
+	background-color: #eee;
 	border: 0;
 	padding: 10px;
 	height: 120px !important;
-}
-
-input[type=submit] {
-	border:1px solid red;
 }

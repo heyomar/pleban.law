@@ -64,7 +64,6 @@
 @media #{$tablet} {
 	.home .hero {
 		min-height: 850px;
-		margin-bottom: 50px;
 	}
 
 	.injury {
@@ -85,5 +84,12 @@
 
 	.civil {
 		min-height: 295px;
+	}
+}
+
+
+@media screen and (min-width:960px) {
+	.home .hero {
+		margin-bottom: 40px;
 	}
 }

@@ -1433,6 +1433,8 @@ textarea {
   .consultation-form .nf-form-cont {
     max-width: 960px;
     margin: 0 auto; }
+  .consultation-form .vertical {
+    display: none; }
 
 @media screen and (min-width: 960px) {
   .consultation-form {
@@ -1464,6 +1466,7 @@ textarea {
     border-right: 1px solid #494a49;
     cursor: pointer; }
     .vbar .vertical {
+      display: block;
       width: 518px;
       position: relative;
       text-align: center;

@@ -38,7 +38,7 @@
 	<div class="inner">
 		<div class="row">
 
-      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 hide-mobile show-tablet">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 				<div class="content">
           <div class="vbar">
         		<div class="vertical">Schedule a No Obligation Consultation

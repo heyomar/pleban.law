@@ -1473,7 +1473,11 @@ textarea {
               transform: rotate(90deg);
       -webkit-transform-origin: left top 0;
               transform-origin: left top 0;
-      color: #717171; } }
+      color: #717171; }
+      .vbar .vertical .icon {
+        width: 20px;
+        vertical-align: middle;
+        margin-left: 8px; } }
 
 .frs-slideshow-container .frs-slideshow-content {
   background: transparent url("") !important; }

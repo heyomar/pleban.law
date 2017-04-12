@@ -3,9 +3,11 @@ function consultationForm() {
 		if (window.innerWidth >= 960) {
 			$('.vbar').on('click', function(){
 				if ($('.side-closed')[0]) {
+					$('.vbar .icon').css('transform', 'rotate(180deg)');
 					$('.consultation-form').removeClass('side-closed');
 					$('.consultation-form').animate({right:'-365px'}, 'fast');
 				} else {
+					$('.vbar .icon').css('transform', 'rotate(0deg)');
 					$('.consultation-form').addClass('side-closed');
 					$('.consultation-form').animate({right:'0px'}, 'fast');
 				}

@@ -41,7 +41,9 @@
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 hide-mobile show-tablet">
 				<div class="content">
           <div class="vbar">
-        		<div class="vertical">Schedule a No Obligation Consultation</div>
+        		<div class="vertical">Schedule a No Obligation Consultation
+              <img class="icon" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/icon__arrowhead-up.svg">
+            </div>
         	</div>
 				</div>
 			</div>

@@ -5,7 +5,31 @@ input {
 }
 
 input[type=checkbox] {
-	border:1px solid red !important;
+	appearance: none;
+	border:2px solid $offblack;
+
+	background-color: $white;
+	height: 12px !important;
+	width: 12px !important;
+	outline: none;
+}
+
+input[type=checkbox]:checked {
+	background-color: $green;
+	border:2px solid $green;
+}
+
+input[type=button] {
+	appearance: none;
+	border:2px solid $offblack;
+	background-color: $white;
+	padding: 10px 25px;
+
+	&:hover {
+		background-color: $offblack;
+		color: $white;
+		cursor: pointer;
+	}
 }
 
 textarea {

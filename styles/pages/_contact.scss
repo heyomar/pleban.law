@@ -11,6 +11,8 @@
 		text-transform: uppercase;
 		font-size: 15px;
 	}
+
+
 }
 
 .linkedin {
@@ -39,8 +41,6 @@
 	address p {
 		margin: 0;
 	}
-
-
 }
 
 
@@ -55,6 +55,10 @@
 		font-weight: 600;
 		padding: 0 0 25px 0;
 		color: #494a49;
+	}
+
+	a {
+		text-decoration: underline;
 	}
 }
 

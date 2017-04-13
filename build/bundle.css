@@ -1343,7 +1343,30 @@ input {
   border: 0; }
 
 input[type=checkbox] {
-  border: 1px solid red !important; }
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border: 2px solid #231f20;
+  background-color: #ffffff;
+  height: 12px !important;
+  width: 12px !important;
+  outline: none; }
+
+input[type=checkbox]:checked {
+  background-color: #4ea995;
+  border: 2px solid #4ea995; }
+
+input[type=button] {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border: 2px solid #231f20;
+  background-color: #ffffff;
+  padding: 10px 25px; }
+  input[type=button]:hover {
+    background-color: #231f20;
+    color: #ffffff;
+    cursor: pointer; }
 
 textarea {
   background-color: #eee;
@@ -1581,7 +1604,8 @@ nav {
   .menu-header-navigation-container .menu-item {
     display: block;
     text-align: right;
-    padding: 10px; }
+    padding: 10px;
+    text-decoration: none; }
 
 .site-logo {
   position: relative;
@@ -1636,6 +1660,8 @@ footer {
   color: #ffffff;
   padding: 70px 20px 40px 20px;
   margin-top: 50px; }
+  footer a {
+    text-decoration: underline; }
   footer .title {
     font-size: 4rem;
     font-weight: bold;
@@ -1649,7 +1675,8 @@ footer {
     footer .contact .link {
       margin-bottom: 13px;
       display: block;
-      width: 200px; }
+      width: 200px;
+      text-decoration: none; }
   footer .signup {
     border: 0;
     padding: 20px 50px 40px;
@@ -1685,7 +1712,8 @@ footer {
   .footernav a {
     border: 0;
     padding: 3px 0;
-    display: block; }
+    display: block;
+    text-decoration: none; }
 
 @media screen and (min-width: 768px) {
   footer .title {
@@ -1996,6 +2024,9 @@ footer {
   font-weight: 600;
   padding: 0 0 25px 0;
   color: #494a49; }
+
+.contact-us a {
+  text-decoration: underline; }
 
 .nf-form-fields-required {
   display: none; }

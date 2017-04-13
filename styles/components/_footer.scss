@@ -7,6 +7,10 @@ footer {
 	padding: 70px 20px 40px 20px;
 	margin-top: 50px;
 
+	a {
+		text-decoration: underline;
+	}
+
 	.title {
 		font-size: 4rem;
 		font-weight: bold;
@@ -23,6 +27,7 @@ footer {
 			 margin-bottom: 13px;
 			 display: block;
 			 width: 200px;
+			 text-decoration: none;
 		 }
 	}
 
@@ -76,6 +81,7 @@ footer {
 		border: 0;
 		padding: 3px 0;
 		display: block;
+		text-decoration: none;
 	}
 }
 

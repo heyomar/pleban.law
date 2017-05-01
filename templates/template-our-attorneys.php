@@ -61,7 +61,7 @@
 								<div class="attorney" style="background-image:url(<?php the_field('profile_image') ?>);">
 									<div class="name">
 										<h4><?php the_title(); ?></h4>
-										<a class="link plus " href="<?php the_permalink(); ?>">&plus;</a>
+										<a class="link arrow" href="<?php the_permalink(); ?>"></a>
 									</div>
 								</div>
 							</div>

@@ -64,4 +64,28 @@
 			line-height: 35px;
 		}
 	}
+
+	&.arrow {
+		border: 3px solid $white;
+		display: block;
+		width: 50px;
+		height: 45px;
+		margin: 0 auto;
+		text-align: center;
+		color: $white;
+		font-size: 25px;
+		line-height: 50px;
+
+		&:after {
+			content: '';
+			background-image: url(../assets/link__arrow.png);
+			background-size: contain;
+			background-repeat: no-repeat;
+			display: inline-block;
+			vertical-align: middle;
+			height: 15px;
+			width: 9px;
+
+		}
+	}
 }

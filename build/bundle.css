@@ -1337,6 +1337,26 @@ hr {
     height: 30px;
     line-height: 35px; }
 
+.link.arrow {
+  border: 3px solid #ffffff;
+  display: block;
+  width: 50px;
+  height: 45px;
+  margin: 0 auto;
+  text-align: center;
+  color: #ffffff;
+  font-size: 25px;
+  line-height: 50px; }
+  .link.arrow:after {
+    content: '';
+    background-image: url(../assets/link__arrow.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    height: 15px;
+    width: 9px; }
+
 input {
   padding: 10px;
   background-color: #eee;
@@ -1826,8 +1846,7 @@ footer {
   color: #ffffff;
   background-position: center;
   background-repeat: no-repeat;
-  margin: 25px;
-  border: 1px solid red; }
+  margin: 25px; }
   .attorney .name {
     padding-bottom: 40px;
     padding-top: 15px;

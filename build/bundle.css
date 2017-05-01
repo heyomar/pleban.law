@@ -1826,13 +1826,17 @@ footer {
   color: #ffffff;
   background-position: center;
   background-repeat: no-repeat;
-  margin: 25px; }
+  margin: 25px;
+  border: 1px solid red; }
   .attorney .name {
     padding-bottom: 40px;
+    padding-top: 15px;
     position: absolute;
     bottom: 0;
     left: 0;
-    right: 0; }
+    right: 0;
+    background: -webkit-linear-gradient(transparent, rgba(0, 0, 0, 0.9));
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.9)); }
 
 @media screen and (min-width: 768px) {
   .attorney {

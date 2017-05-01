@@ -23,7 +23,7 @@
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-12">
 					<div class="content">
-						<h2 class="title"><?php the_field('title'); ?></h2>
+						<h1 class="title"><?php the_field('title'); ?></h1>
 						<h5 class="subtitle"><?php the_field('intro_copy'); ?></h5>
 					</div>
 				</div>

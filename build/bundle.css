@@ -1239,9 +1239,9 @@ a {
   font-weight: 600;
   padding-bottom: 3px; }
   a:hover {
-    color: #4ea995; }
+    color: #52a895; }
   a:active {
-    color: #4ea995; }
+    color: #52a895; }
   a:visited {
     color: inherit; }
 
@@ -1373,8 +1373,8 @@ input[type=checkbox] {
   outline: none; }
 
 input[type=checkbox]:checked {
-  background-color: #4ea995;
-  border: 2px solid #4ea995; }
+  background-color: #52a895;
+  border: 2px solid #52a895; }
 
 input[type=button] {
   -webkit-appearance: none;
@@ -1406,7 +1406,7 @@ textarea {
     font-weight: 600;
     position: relative; }
     .consultation-form .copy .number {
-      color: #4ea995;
+      color: #52a895;
       font-size: 2.4rem; }
     .consultation-form .copy .or {
       padding: 5px;
@@ -1563,7 +1563,7 @@ textarea {
 .noresults {
   text-align: center; }
   .noresults .title {
-    color: #4ea995; }
+    color: #52a895; }
 
 .searchform {
   text-align: center;
@@ -1631,7 +1631,8 @@ nav {
   position: relative;
   z-index: 99;
   width: 230px;
-  height: 50px; }
+  height: 50px;
+  z-index: 0; }
   .site-logo .logo {
     position: absolute;
     height: 40px;
@@ -1719,7 +1720,7 @@ footer {
     vertical-align: middle; }
 
 .footer-section {
-  color: #4ea995;
+  color: #52a895;
   text-transform: uppercase; }
 
 .footernav {
@@ -1970,7 +1971,7 @@ footer {
     display: inline-block; }
   .settlement .copy {
     font-weight: bold;
-    color: #4ea995;
+    color: #52a895;
     vertical-align: 4px;
     text-transform: uppercase; }
 

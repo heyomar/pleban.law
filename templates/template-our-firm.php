@@ -19,6 +19,9 @@
 			</div>
 		</div>
 
+
+		<?php get_template_part('template-parts/signup') ?>
+
 		<div class="ourfirm-body mxw-960 room-sides">
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-12">

@@ -20,8 +20,6 @@
 	<body <?php body_class(); ?>>
 		<nav role="navigation">
 
-
-
 					<a class="site-logo" href="/">
 						<img class="logo" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/site__logo.svg" alt="">
 					</a>

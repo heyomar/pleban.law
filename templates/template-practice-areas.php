@@ -20,6 +20,8 @@
 			</div>
 		</div>
 
+		<?php get_template_part('template-parts/signup') ?>
+
 		<div class="mxw-960 inner-space">
 			<div class="inner">
 				<div class="row">

@@ -19,10 +19,9 @@
 			</div>
 		</div>
 
-
 		<?php get_template_part('template-parts/signup') ?>
 
-		<div class="ourfirm-body mxw-960 room-sides">
+		<div class="ourfirm-body mxw-960 room-sides parent">
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-12">
 					<div class="content">
@@ -48,13 +47,14 @@
 						<div class="col-xs-12">
 							<div class="content center-text">
 								<br><br>
-								<a class="btn" href="#">Meet Our Attorneys</a>
+								<a class="btn" href="/our-attorneys">Meet Our Attorneys</a>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
+
 	<?php endwhile; ?>
 	<?php endif ?>
 <?php get_footer();

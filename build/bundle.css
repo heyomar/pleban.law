@@ -1281,6 +1281,21 @@ hr {
   .show-tablet {
     display: block; } }
 
+.parent .title {
+  color: #231f20; }
+
+.parent .subtitle {
+  color: #494a49;
+  font-size: 22px; }
+
+.parent .content {
+  color: #494a49;
+  line-height: 24px; }
+
+@media screen and (min-width: 768px) {
+  .parent .subtitle {
+    font-size: 28px; } }
+
 .ui-hero {
   min-height: 300px;
   background-position: center center;

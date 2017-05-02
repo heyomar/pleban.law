@@ -24,7 +24,7 @@
 
 <?php get_template_part('template-parts/signup') ?>
 
-<div class="inner-space mxw-960">
+<div class="inner-space mxw-960 parent">
 	<div class="inner">
 		<div class="row">
 			<div class="col-xs-12 col-sm-12 col-md-12">

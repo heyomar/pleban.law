@@ -58,6 +58,33 @@
 
 
 
+.parent {
+	.title {
+		color: #231f20;
+	}
+
+	.subtitle {
+		color: #494a49;
+		font-size: 22px;
+	}
+
+	.content {
+		color: #494a49;
+		line-height: 24px;
+	}
+}
+
+
+@media #{$tablet} {
+	.parent {
+		.subtitle {
+			font-size: 28px;
+		}
+	}
+}
+
+
+
 //––
 // MIXINS
 //––––––––––––––––––––––––––––––

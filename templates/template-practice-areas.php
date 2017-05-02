@@ -22,7 +22,7 @@
 
 		<?php get_template_part('template-parts/signup') ?>
 
-		<div class="mxw-960 inner-space">
+		<div class="mxw-960 inner-space parent">
 			<div class="inner">
 				<div class="row">
 					<div class="col-xs-12 col-sm-12 col-md-12">

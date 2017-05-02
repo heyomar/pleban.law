@@ -7,10 +7,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
 		<!-- FONTS -->
-		<!-- <script src="https://use.typekit.net/xqo1dlx.js"></script>
-		<script>try{Typekit.load({ async: true });}catch(e){}</script> -->
-
-		<script src="https://use.typekit.net/edu0ppo.js"></script>
+		<script src="https://use.typekit.net/xqo1dlx.js"></script>
 		<script>try{Typekit.load({ async: true });}catch(e){}</script>
 
 

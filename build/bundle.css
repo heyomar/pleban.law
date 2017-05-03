@@ -2084,10 +2084,14 @@ footer {
 .blog .hero {
   background-image: url("../assets/crnews__hero-bg.jpg"); }
 
+.blog p {
+  line-height: 24px; }
+
 .date {
   font-weight: bold;
   color: #b6b6b6;
-  padding-bottom: 15px; }
+  padding-bottom: 15px;
+  text-transform: uppercase; }
 
 .readmore {
   border-bottom: 1px solid #231f20; }

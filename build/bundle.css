@@ -1393,8 +1393,8 @@ input[type=checkbox] {
           appearance: none;
   border: 2px solid #231f20;
   background-color: #ffffff;
-  height: 12px !important;
-  width: 12px !important;
+  height: 15px !important;
+  width: 15px !important;
   outline: none; }
 
 input[type=checkbox]:checked {
@@ -1980,6 +1980,7 @@ footer {
   background-image: url("../assets/practiceareas__hero-bg.jpg"); }
 
 .hover-content {
+  visibility: hidden;
   opacity: 0;
   -webkit-transition: opacity .25s ease;
   transition: opacity .25s ease;
@@ -2071,6 +2072,7 @@ footer {
     background-size: cover;
     background-repeat: no-repeat; }
     .injury:hover .hover-content, .employment:hover .hover-content, .criminal:hover .hover-content, .civil:hover .hover-content {
+      visibility: visible;
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
@@ -2145,12 +2147,20 @@ footer {
   text-transform: uppercase;
   font-size: 15px; }
 
-.linkedin .icon {
-  height: auto;
-  width: 30px;
-  display: inline-block;
-  padding-right: 5px;
-  margin-bottom: -9px; }
+.contact .label-above .nf-field-label {
+  margin-bottom: 2px; }
+
+.contact .submit-container {
+  text-align: right; }
+
+.linkedin {
+  margin-top: 15px; }
+  .linkedin .icon {
+    height: auto;
+    width: 30px;
+    display: inline-block;
+    padding-right: 5px;
+    margin-bottom: -9px; }
 
 .contact-details .content {
   padding-bottom: 20px;
@@ -2161,6 +2171,9 @@ footer {
   font-size: 17px;
   font-weight: bold;
   color: #232323; }
+
+.contact-details address a {
+  text-decoration: none; }
 
 .contact-details address p {
   margin: 0; }

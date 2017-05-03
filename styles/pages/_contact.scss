@@ -7,15 +7,26 @@
 	    color: $offblack;
 	}
 
-	.nf-field-label label {
-		text-transform: uppercase;
-		font-size: 15px;
+	.nf-field-label {
+		label {
+			text-transform: uppercase;
+			font-size: 15px;
+		}
+
 	}
 
+	.label-above .nf-field-label {
+		margin-bottom: 2px;
+	}
+
+	.submit-container {
+		text-align: right;
+	}
 
 }
 
 .linkedin {
+	margin-top: 15px;
 	.icon {
 		height: auto;
 		width: 30px;
@@ -38,8 +49,13 @@
 		color: #232323;
 	}
 
-	address p {
-		margin: 0;
+	address {
+		a {
+			text-decoration: none;
+		}
+		p {
+			margin: 0;
+		}
 	}
 }
 
@@ -71,6 +87,7 @@
 	width: 90% !important;
 	display: inline-block;
 }
+
 
 
 

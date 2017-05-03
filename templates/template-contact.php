@@ -17,7 +17,7 @@
 				</div>
 			</div>
 		</div>
-		
+
 
 		<div class="contact-us mxw-960 room-sides">
 			<div class="inner">
@@ -41,7 +41,7 @@
 										<div class="col-xs-12 col-sm-6 col-md-6">
 											<div class="content">
 												<strong>EMAIL</strong><br>
-												<a class="" href="#"><?php the_field("email"); ?></a>
+												<a class="" href="mailto:<?php the_field("email"); ?>"><?php the_field("email"); ?></a>
 											</div>
 										</div>
 
@@ -56,7 +56,7 @@
 											<div class="content">
 												<strong>ADDRESS</strong>
 												<address class="">
-													<?php the_field("address"); ?>
+													<a href="https://goo.gl/maps/texV4UjQAHQ2"><?php the_field("address"); ?></a>
 												</address>
 											</div>
 										</div>

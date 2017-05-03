@@ -13,6 +13,7 @@
 // HIDDEN CONTENT
 //––––––––––––––––––––––––––––––
 .hover-content {
+	visibility: hidden;
 	opacity: 0;
 	transition: opacity .25s ease;
 	position: absolute;
@@ -42,6 +43,7 @@
 
 @mixin item-hover {
 	&:hover .hover-content{
+		visibility: visible;
 		display: flex;
 		opacity: 1;
 		background-color: $offblack;

@@ -24,6 +24,10 @@ nav {
 		text-align: right;
 		padding: 10px;
 		text-decoration: none;
+
+		&:hover {
+			border-bottom: 2px solid $green;
+		}
 	}
 }
 

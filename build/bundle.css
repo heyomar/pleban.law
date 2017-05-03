@@ -1679,6 +1679,8 @@ nav {
     text-align: right;
     padding: 10px;
     text-decoration: none; }
+    .menu-header-navigation-container .menu-item:hover {
+      border-bottom: 2px solid #52a895; }
 
 .site-logo {
   position: relative;
@@ -1978,7 +1980,9 @@ footer {
   background-image: url("../assets/practiceareas__hero-bg.jpg"); }
 
 .hover-content {
-  display: none;
+  opacity: 0;
+  -webkit-transition: opacity .25s ease;
+  transition: opacity .25s ease;
   position: absolute;
   height: 100%;
   color: #494a49;
@@ -1994,9 +1998,11 @@ footer {
   .hover-content .list {
     list-style-type: none;
     padding: 0;
-    text-align: center; }
+    text-align: center;
+    font-size: 18px; }
     .hover-content .list li {
-      padding: 2px 0; }
+      padding: 2px 0;
+      color: #777777; }
   .hover-content .title {
     color: #ffffff; }
 
@@ -2005,7 +2011,9 @@ footer {
   font-size: 14px; }
   .areas .title {
     text-align: center;
-    color: #ffffff; }
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 600; }
   .areas .content {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2035,6 +2043,8 @@ footer {
     margin-bottom: 10px;
     height: 150px;
     position: relative; }
+    .areas .employment .list {
+      font-size: 16px; }
   .areas .criminal {
     background-image: url(../assets/pa__criminal.jpg);
     background-position: center center;
@@ -2052,6 +2062,8 @@ footer {
     background-position: top center;
     height: 150px;
     position: relative; }
+    .areas .civil .list {
+      font-size: 14px; }
 
 @media screen and (min-width: 768px) {
   .injury, .employment, .criminal, .civil {
@@ -2062,6 +2074,7 @@ footer {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
+      opacity: 1;
       background-color: #231f20; }
       .injury:hover .hover-content .title, .employment:hover .hover-content .title, .criminal:hover .hover-content .title, .civil:hover .hover-content .title {
         margin-bottom: 0; } }

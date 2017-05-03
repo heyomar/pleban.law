@@ -7,9 +7,32 @@
 		margin-bottom: 0;
 		min-height: 675px;
 	}
+
+	.injury {
+		background-position: top center;
+	}
+
+	.employment {
+		background-position: top center;
+	}
+
+	.small-blocks {
+		background-position: top center;
+	}
+
+	.criminal {
+		background-position: top center;
+	}
+
+	.civil {
+		background-position: top center;
+	}
 }
 
-
+.practice-areas {
+	font-size: 18px;
+	line-height: 26px;
+}
 
 //––
 // CASE RESULTS
@@ -17,6 +40,10 @@
 .case-results {
 	background-color: $offwhite;
 	padding: 80px 20px;
+
+	.title {
+		text-align: center;
+	}
 
 
 	.inner {
@@ -62,6 +89,9 @@
 // MEDIA QUIRIES
 //––––––––––––––––––––––––––––––
 @media #{$tablet} {
+	.case-results .title {
+		text-align: left;
+	}
 	.home .hero {
 		min-height: 850px;
 	}

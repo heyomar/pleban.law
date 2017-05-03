@@ -80,6 +80,8 @@
 	input {
 		background-color: #2d2d2d;
 		color: $white;
+		appearance: none;
+		border-radius: 0;
 
 		&[type=button] {
 			border:2px solid $white;
@@ -87,6 +89,8 @@
 			padding: 10px 25px;
 		}
 	}
+
+
 
 	textarea {
 		background-color: #2d2d2d;
@@ -106,6 +110,10 @@
 		text-align: center;
 	}
 
+	.nf-field-container {
+		margin-bottom: 15px;
+	}
+
 	.nf-response-msg {
 		text-align: center;
 		color: $white;
@@ -117,9 +125,31 @@
 		margin: 0 auto;
 	}
 
+	.field-wrap .submit-wrap .nf-field-element{
+		text-align: center !important;
+	}
+
 	.vertical {
 		display: none;
 	}
+
+	::-webkit-input-placeholder {
+		 color: white;
+	}
+
+	:-moz-placeholder { /* Firefox 18- */
+		 color: white;
+	}
+
+	::-moz-placeholder {  /* Firefox 19+ */
+		 color: white;
+	}
+
+	:-ms-input-placeholder {
+		 color: white;
+	}
+
+
 }
 
 

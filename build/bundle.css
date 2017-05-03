@@ -1373,9 +1373,19 @@ hr {
     width: 9px; }
 
 input {
-  padding: 10px;
+  padding: 15px;
   background-color: #eee;
   border: 0; }
+  input::-webkit-input-placeholder {
+    color: white; }
+  input:-moz-placeholder {
+    /* Firefox 18- */
+    color: white; }
+  input::-moz-placeholder {
+    /* Firefox 19+ */
+    color: white; }
+  input:-ms-input-placeholder {
+    color: white; }
 
 input[type=checkbox] {
   -webkit-appearance: none;
@@ -1469,7 +1479,11 @@ textarea {
     color: #ffffff; }
   .consultation-form input {
     background-color: #2d2d2d;
-    color: #ffffff; }
+    color: #ffffff;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    border-radius: 0; }
     .consultation-form input[type=button] {
       border: 2px solid #ffffff;
       background-color: transparent;
@@ -1484,6 +1498,8 @@ textarea {
   .consultation-form .nf-error-field-errors {
     display: none !important;
     text-align: center; }
+  .consultation-form .nf-field-container {
+    margin-bottom: 15px; }
   .consultation-form .nf-response-msg {
     text-align: center;
     color: #ffffff;
@@ -1491,8 +1507,20 @@ textarea {
   .consultation-form .nf-form-cont {
     max-width: 960px;
     margin: 0 auto; }
+  .consultation-form .field-wrap .submit-wrap .nf-field-element {
+    text-align: center !important; }
   .consultation-form .vertical {
     display: none; }
+  .consultation-form ::-webkit-input-placeholder {
+    color: white; }
+  .consultation-form :-moz-placeholder {
+    /* Firefox 18- */
+    color: white; }
+  .consultation-form ::-moz-placeholder {
+    /* Firefox 19+ */
+    color: white; }
+  .consultation-form :-ms-input-placeholder {
+    color: white; }
 
 @media screen and (min-width: 960px) {
   .consultation-form {
@@ -1597,12 +1625,15 @@ textarea {
       -webkit-appearance: none;
          -moz-appearance: none;
               appearance: none;
-      width: 300px;
+      width: 100%;
+      max-width: 300px;
       border: 2px solid #ffffff;
       background-color: transparent;
       color: #ffffff;
       position: relative;
-      padding-right: 35px; }
+      padding-right: 35px;
+      appearance: none;
+      border-radius: 0; }
       .searchform form input:focus {
         outline: 0; }
     .searchform form .fieldspan {
@@ -1807,9 +1838,30 @@ footer {
   margin-bottom: 0;
   min-height: 675px; }
 
+.home .injury {
+  background-position: top center; }
+
+.home .employment {
+  background-position: top center; }
+
+.home .small-blocks {
+  background-position: top center; }
+
+.home .criminal {
+  background-position: top center; }
+
+.home .civil {
+  background-position: top center; }
+
+.practice-areas {
+  font-size: 18px;
+  line-height: 26px; }
+
 .case-results {
   background-color: #f3f3f3;
   padding: 80px 20px; }
+  .case-results .title {
+    text-align: center; }
   .case-results .inner {
     position: relative; }
   .case-results .readmore {
@@ -1832,6 +1884,8 @@ footer {
     margin-bottom: 40px; }
 
 @media screen and (min-width: 768px) {
+  .case-results .title {
+    text-align: left; }
   .home .hero {
     min-height: 850px; }
   .injury {
@@ -1872,6 +1926,12 @@ footer {
     right: 0;
     background: -webkit-linear-gradient(transparent, rgba(0, 0, 0, 0.9));
     background: linear-gradient(transparent, rgba(0, 0, 0, 0.9)); }
+    .attorney .name .thename {
+      font-weight: 600;
+      text-transform: uppercase; }
+    .attorney .name .position {
+      font-family: 'proxima-nova', sans-serif;
+      font-weight: normal; }
 
 @media screen and (min-width: 768px) {
   .attorney {
@@ -1931,6 +1991,7 @@ footer {
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: top center;
     margin-bottom: 10px;
     height: 150px;
     position: relative; }
@@ -1939,6 +2000,7 @@ footer {
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: top center;
     margin-bottom: 10px;
     height: 150px;
     position: relative; }
@@ -1947,6 +2009,7 @@ footer {
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: top center;
     height: 150px;
     margin-bottom: 10px;
     position: relative; }
@@ -1955,17 +2018,22 @@ footer {
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: top center;
     height: 150px;
     position: relative; }
 
 @media screen and (min-width: 768px) {
-  .injury:hover .hover-content, .employment:hover .hover-content, .criminal:hover .hover-content, .civil:hover .hover-content {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    background-color: #231f20; }
-    .injury:hover .hover-content .title, .employment:hover .hover-content .title, .criminal:hover .hover-content .title, .civil:hover .hover-content .title {
-      margin-bottom: 0; } }
+  .injury, .employment, .criminal, .civil {
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+    .injury:hover .hover-content, .employment:hover .hover-content, .criminal:hover .hover-content, .civil:hover .hover-content {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      background-color: #231f20; }
+      .injury:hover .hover-content .title, .employment:hover .hover-content .title, .criminal:hover .hover-content .title, .civil:hover .hover-content .title {
+        margin-bottom: 0; } }
 
 .blog .hero {
   background-image: url("../assets/crnews__hero-bg.jpg"); }

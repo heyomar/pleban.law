@@ -38,7 +38,7 @@
 <!--
 		PRACTICE AREAS
 ------------------------------------------------------------------------------->
-<div class="center-text inner-space mxw-960">
+<div class="center-text practice-areas inner-space mxw-960">
 	<div class="inner">
 		<div class="row">
 			<div class="col-xs-12 col-sm-12 col-md-12">
@@ -63,7 +63,7 @@
 			<div class="col-xs-12 col-sm-6">
 				<div class="content injury">
 					<h3 class="title">Personal Injury</h3>
-					<a class="link plus " href="/personal-injury">&plus;</a>
+					<a class="link arrow" href="/personal-injury"></a>
 					<div class="hover-content">
 						<h3 class="title">Personal Injury</h3>
 						<ul class="list">
@@ -75,7 +75,7 @@
 							<li>Appeals</li>
 							<li>Consumer Rights</li>
 						</ul>
-						<a class="link plus " href="/personal-injury">&plus;</a>
+						<a class="link plus" href="/personal-injury">&plus;</a>
 					</div>
 				</div>
 			</div>
@@ -90,7 +90,7 @@
 								<div class="col-xs-12 col-sm-12">
 									<div class="content employment">
 										<h3 class="title">Employment</h3>
-										<a class="link plus" href="/employment">&plus;</a>
+										<a class="link arrow" href="/employment"></a>
 										<div class="hover-content">
 											<h3 class="title">Employment</h3>
 											<ul class="list">
@@ -101,7 +101,7 @@
 												<li>Administrative Preceedings</li>
 												<li>Free Speech False Claims Act</li>
 											</ul>
-											<a class="link plus " href="/employment">&plus;</a>
+											<a class="link plus" href="/employment">&plus;</a>
 										</div>
 									</div>
 								</div>
@@ -115,7 +115,7 @@
 													<div class="col-xs-12 col-sm-6">
 														<div class="content criminal">
 															<h4 class="title">Criminal &amp; DWI</h4>
-															<a class="link plus small" href="/criminal-&amp;-dwi">&plus;</a>
+															<a class="link arrow" href="/criminal-&amp;-dwi"></a>
 															<div class="hover-content">
 																<h4 class="title">Criminal &amp; DWI</h4>
 																<br>
@@ -126,7 +126,7 @@
 													<div class="col-xs-12 col-sm-6">
 														<div class="content civil hover-effects">
 															<h4 class="title">Other Civil <br> Litigation</h4>
-															<a class="link plus small" href="/other-civil-litigation">&plus;</a>
+															<a class="link arrow" href="/other-civil-litigation"></a>
 															<div class="hover-content">
 																<h4 class="title">Other Civil <br> Litigation</h4>
 																<ul class="list">
@@ -165,7 +165,7 @@
 		<div class="row">
 			<div class="col-xs-12 col-sm-12 col-md-3">
 				<div class="content">
-					<h1>Case Results</h1>
+					<h1 class="title">Case Results</h1>
 				</div>
 			</div>
 

@@ -69,6 +69,7 @@
 	.injury {
 		background-image: url(../assets/pa__personalinjury.jpg);
 		@include cover;
+		background-position: top center;
 		margin-bottom: 10px;
 		height: 150px;
 		position: relative;
@@ -77,6 +78,7 @@
 	.employment {
 		background-image: url(../assets/pa__employment.jpg);
 		@include cover;
+		background-position: top center;
 		margin-bottom: 10px;
 		height: 150px;
 		position: relative;
@@ -85,6 +87,7 @@
 	.criminal {
 		background-image: url(../assets/pa__criminal.jpg);
 		@include cover;
+		background-position: top center;
 		height: 150px;
 		margin-bottom: 10px;
 		position: relative;
@@ -93,6 +96,7 @@
 	.civil {
 		background-image: url(../assets/pa__civil.jpg);
 		@include cover;
+		background-position: top center;
 		height: 150px;
 		position: relative;
 	}
@@ -102,5 +106,8 @@
 @media #{$tablet} {
 	.injury, .employment, .criminal, .civil {
 		@include item-hover;
+		@include cover;
 	}
+
+
 }

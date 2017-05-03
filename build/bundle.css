@@ -1439,7 +1439,10 @@ textarea {
       color: #1e201f;
       background-color: #494a49;
       margin: 0 8px;
-      font-weight: bold; }
+      font-weight: bold;
+      width: 25px;
+      height: 25px;
+      display: inline-block; }
     .consultation-form .copy .form-cross {
       position: absolute;
       right: 0;
@@ -1464,7 +1467,7 @@ textarea {
     position: relative;
     z-index: 6;
     border: 8px solid #231f20; }
-    .consultation-form .copy-mobile .or::before {
+    .consultation-form .copy-mobile .or::after {
       content: '';
       position: absolute;
       top: 50%;
@@ -1488,6 +1491,8 @@ textarea {
       border: 2px solid #ffffff;
       background-color: transparent;
       padding: 10px 25px; }
+    .consultation-form input[type=checkbox] {
+      border: 1px solid white; }
   .consultation-form textarea {
     background-color: #2d2d2d;
     color: #ffffff; }
@@ -1511,6 +1516,8 @@ textarea {
     text-align: center !important; }
   .consultation-form .vertical {
     display: none; }
+  .consultation-form .submit-container {
+    text-align: center; }
   .consultation-form ::-webkit-input-placeholder {
     color: white; }
   .consultation-form :-moz-placeholder {
@@ -1738,11 +1745,13 @@ footer {
   footer .contact {
     margin-left: auto;
     margin-right: auto;
-    max-width: 190px; }
+    max-width: 210px;
+    font-size: 18px;
+    padding-bottom: 20px; }
     footer .contact .link {
       margin-bottom: 13px;
       display: block;
-      width: 200px;
+      width: 230px;
       text-decoration: none; }
   footer .signup {
     border: 0;
@@ -1757,7 +1766,8 @@ footer {
       padding-bottom: 15px; }
   footer .legal {
     color: #717171;
-    text-align: center; }
+    text-align: center;
+    padding-top: 45px; }
   footer .icon {
     height: auto;
     width: 30px;
@@ -1770,6 +1780,7 @@ footer {
   text-transform: uppercase; }
 
 .footernav {
+  padding-bottom: 20px;
   text-align: center; }
   .footernav ul {
     padding: 0; }
@@ -1859,7 +1870,9 @@ footer {
 
 .case-results {
   background-color: #f3f3f3;
-  padding: 80px 20px; }
+  padding: 80px 20px;
+  background-image: url("../assets/home__casestudies-bg.png");
+  background-position: 100% 100%; }
   .case-results .title {
     text-align: center; }
   .case-results .inner {

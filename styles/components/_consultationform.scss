@@ -26,6 +26,9 @@
 			background-color: $gray;
 			margin: 0 8px;
 			font-weight: bold;
+			width: 25px;
+			height: 25px;
+			display: inline-block;
 		}
 
 		.form-cross {
@@ -60,7 +63,7 @@
 		z-index: 6;
 		border:8px solid $offblack;
 
-		&::before {
+		&::after {
 			content:'';
 			position: absolute;
 			top: 50%;
@@ -88,6 +91,11 @@
 			background-color: transparent;
 			padding: 10px 25px;
 		}
+
+		&[type=checkbox] {
+			border:1px solid white;
+		}
+
 	}
 
 
@@ -133,6 +141,10 @@
 		display: none;
 	}
 
+	.submit-container {
+		text-align: center;
+	}
+
 	::-webkit-input-placeholder {
 		 color: white;
 	}
@@ -148,8 +160,6 @@
 	:-ms-input-placeholder {
 		 color: white;
 	}
-
-
 }
 
 

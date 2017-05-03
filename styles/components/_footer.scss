@@ -22,11 +22,13 @@ footer {
 	.contact {
 		margin-left: auto;
 		margin-right: auto;
-		max-width: 190px;
+		max-width: 210px;
+		font-size: 18px;
+		padding-bottom: 20px;
 		 .link {
 			 margin-bottom: 13px;
 			 display: block;
-			 width: 200px;
+			 width: 230px;
 			 text-decoration: none;
 		 }
 	}
@@ -51,6 +53,7 @@ footer {
 	.legal {
 		color: #717171;
 		text-align: center;
+		padding-top: 45px;
 	}
 
 	.icon {
@@ -69,6 +72,7 @@ footer {
 }
 
 .footernav {
+	padding-bottom: 20px;
 	text-align: center;
 	ul {
 		padding: 0;

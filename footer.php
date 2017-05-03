@@ -48,6 +48,17 @@
 						<div class="content">
 							<div class="signup">
 								<h6 class="footer-section">Newsletter Sign&#8209;Up</h6>
+
+									<!-- <form action="https://leverage.createsend.com/t/r/s/urldsh/" method="post" id="subForm">
+									  <ul>
+									    <li>
+									      <label for="fieldEmail">Email</label>
+									      <input id="fieldEmail" name="cm-urldsh-urldsh" type="email" required />
+									    </li>
+									  </ul>
+									  <button type="submit">Subscribe</button>
+									</form> -->
+
 								<span>Connect&nbsp;With&nbsp;Us&nbsp;on <a href="#">Linkedin</a></span>
 							</div>
 						</div>

@@ -14,15 +14,15 @@
 						<div class="content">
 							<div class="contact">
 								<a class="link no-border" href="">
-									<object class="icon" type="image/svg+xml" data="<?php echo get_stylesheet_directory_uri(); ?>/assets/footer__icon-phone.svg"></object>
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/footer__icon-phone.svg" alt="">
 									314.645.6666
 								</a>
 								<a class="link no-border" href="">
-									<object class="icon" type="image/svg+xml" data="<?php echo get_stylesheet_directory_uri(); ?>/assets/footer__icon-fax.svg"></object>
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/footer__icon-fax.svg" alt="">
 									314.645.7376
 								</a>
 								<a class="link no-border" href="#">
-									<object class="icon" type="image/svg+xml" data="<?php echo get_stylesheet_directory_uri(); ?>/assets/footer__icon-email.svg"></object>
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/footer__icon-email.svg" alt="">
 									info@plebanlaw.com
 								</a>
 							</div>
@@ -49,15 +49,11 @@
 							<div class="signup">
 								<h6 class="footer-section">Newsletter Sign&#8209;Up</h6>
 
-									<!-- <form action="https://leverage.createsend.com/t/r/s/urldsh/" method="post" id="subForm">
-									  <ul>
-									    <li>
-									      <label for="fieldEmail">Email</label>
-									      <input id="fieldEmail" name="cm-urldsh-urldsh" type="email" required />
-									    </li>
-									  </ul>
-									  <button type="submit">Subscribe</button>
-									</form> -->
+									<form action="https://leverage.createsend.com/t/r/s/urldsh/" method="post" id="subForm">
+									  <label for="fieldEmail">Email</label>
+									  <input id="fieldEmail" name="cm-urldsh-urldsh" type="email" required />
+									  <button type="submit">Submit</button>
+									</form>
 
 								<span>Connect&nbsp;With&nbsp;Us&nbsp;on <a href="#">Linkedin</a></span>
 							</div>

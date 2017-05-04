@@ -38,10 +38,11 @@
 // CASE RESULTS
 //––––––––––––––––––––––––––––––
 .case-results {
-	background-color: $offwhite;
 	padding: 80px 20px;
-	background-image: url('../assets/home__casestudies-bg.png');
-	background-position: 100% 100%;
+ 	background-color: #f3f3f3;
+  background-image: url('../assets/home__casestudies-bg.png');
+  background-repeat: no-repeat;
+  background-position: 100% 100%; /* this puts it always at the bottom right */
 
 	.title {
 		text-align: center;

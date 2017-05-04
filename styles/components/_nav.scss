@@ -22,12 +22,7 @@ nav {
 	.menu-item {
 		display: block;
 		text-align: right;
-		padding: 10px;
 		text-decoration: none;
-
-		&:hover {
-			border-bottom: 2px solid $green;
-		}
 	}
 }
 
@@ -73,6 +68,10 @@ nav {
 }
 
 
+
+
+
+
 @media screen and (min-width:860px) {
 	nav {
 		max-width: 960px;
@@ -90,7 +89,12 @@ nav {
 
 		.menu-item {
 			display: inline-block;
-			padding: 10px;
+			margin: 10px;
+			padding-bottom: 5px;
+
+			&:hover {
+				border-bottom: 2px solid $white;
+			}
 		}
 	}
 
@@ -100,5 +104,9 @@ nav {
 
 	.site-logo .logo {
 		height: 55px;
+	}
+
+	.current-menu-item {
+		border-bottom: 2px solid $white;
 	}
 }

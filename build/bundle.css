@@ -1282,7 +1282,8 @@ hr {
     display: block; } }
 
 .parent .title {
-  color: #231f20; }
+  color: #231f20;
+  margin-bottom: 30px; }
 
 .parent .subtitle {
   color: #494a49;
@@ -1677,10 +1678,7 @@ nav {
   .menu-header-navigation-container .menu-item {
     display: block;
     text-align: right;
-    padding: 10px;
     text-decoration: none; }
-    .menu-header-navigation-container .menu-item:hover {
-      border-bottom: 2px solid #52a895; }
 
 .site-logo {
   position: relative;
@@ -1725,11 +1723,16 @@ nav {
     right: 25px; }
     .menu-header-navigation-container .menu-item {
       display: inline-block;
-      padding: 10px; }
+      margin: 10px;
+      padding-bottom: 5px; }
+      .menu-header-navigation-container .menu-item:hover {
+        border-bottom: 2px solid #ffffff; }
   .hamburger {
     display: none; }
   .site-logo .logo {
-    height: 55px; } }
+    height: 55px; }
+  .current-menu-item {
+    border-bottom: 2px solid #ffffff; } }
 
 footer {
   background-color: #1e201f;
@@ -1889,10 +1892,12 @@ footer {
   line-height: 26px; }
 
 .case-results {
-  background-color: #f3f3f3;
   padding: 80px 20px;
+  background-color: #f3f3f3;
   background-image: url("../assets/home__casestudies-bg.png");
-  background-position: 100% 100%; }
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  /* this puts it always at the bottom right */ }
   .case-results .title {
     text-align: center; }
   .case-results .inner {
@@ -1963,8 +1968,10 @@ footer {
       font-weight: 600;
       text-transform: uppercase; }
     .attorney .name .position {
+      margin-top: -15px;
       font-family: 'proxima-nova', sans-serif;
-      font-weight: normal; }
+      font-weight: 300;
+      padding-bottom: 10px; }
 
 @media screen and (min-width: 768px) {
   .attorney {

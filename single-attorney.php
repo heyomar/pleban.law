@@ -25,14 +25,21 @@
 						<div class="row">
 
 							<div class="col-xs-12 col-sm-3">
+								<div class="mobile-title">
+									<h3 class="attorney-title"><?php the_title(); ?></h3>
+									<h5 class="attorney-position"><?php the_field("position"); ?></h5>
+								</div>
 								<img class="profile-image" src="<?php the_field('profile_image'); ?>" alt="">
 								<a class="message-btn" href="mailto:<?php the_field('email_address') ?>">Send Message</a>
 							</div>
 
 							<div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
 								<div class="right-column">
-									<h3><?php the_title(); ?></h3>
-									<h5><?php the_field("position"); ?></h5>
+
+									<div class="desktop-title">
+										<h3 class="attorney-title"><?php the_title(); ?></h3>
+										<h5 class="attorney-position"><?php the_field("position"); ?></h5>
+									</div>
 
 									<div class="quick-bio bottom-space">
 										<ul class="list">

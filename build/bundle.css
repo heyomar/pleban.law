@@ -1835,20 +1835,30 @@ footer {
   .footernav {
     text-align: left; } }
 
-.single-attorney .profile-image {
-  width: 100%; }
+.single-attorney {
+  color: #494a49; }
+  .single-attorney .profile-image {
+    width: 100%; }
+  .single-attorney .list {
+    padding: 0;
+    margin-left: 15px; }
+    .single-attorney .list li {
+      padding-bottom: 8px; }
+  .single-attorney .title {
+    text-transform: uppercase; }
+  .single-attorney p {
+    margin: 0; }
+  .single-attorney .row {
+    margin-bottom: 5px; }
+  .single-attorney .attorney-title, .single-attorney .attorney-position {
+    color: #231f20; }
 
-.single-attorney .list {
-  padding: 0;
-  margin-left: 15px; }
-  .single-attorney .list li {
-    padding-bottom: 8px; }
+.mobile-title {
+  display: block;
+  text-align: center; }
 
-.single-attorney .title {
-  text-transform: uppercase; }
-
-.single-attorney p {
-  margin: 0; }
+.desktop-title {
+  display: none; }
 
 .message-btn {
   border: 3px solid #231f20;
@@ -1862,7 +1872,11 @@ footer {
 
 @media screen and (min-width: 768px) {
   .right-column {
-    padding: 0 40px; } }
+    padding: 0 40px; }
+  .mobile-title {
+    display: none; }
+  .desktop-title {
+    display: block; } }
 
 .home .hero {
   background-image: url("../assets/home__hero-bg.jpg"); }
@@ -2225,4 +2239,6 @@ footer {
 .thank-you-body {
   text-align: center;
   padding: 50px 25px 0 25px; }
+  .thank-you-body p {
+    font-size: 18px; }
 /*# sourceMappingURL=bundle.css.map */

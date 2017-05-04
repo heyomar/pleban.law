@@ -1,4 +1,6 @@
 .single-attorney {
+	color: #494a49;
+
 	.profile-image {
 		width: 100%;
 	}
@@ -19,6 +21,25 @@
 	p {
 		margin: 0;
 	}
+
+	.row {
+		margin-bottom: 5px;
+	}
+
+	.attorney-title, .attorney-position {
+		color: #231f20;
+	}
+}
+
+
+
+.mobile-title {
+	display: block;
+	text-align: center;
+}
+
+.desktop-title {
+	display: none;
 }
 
 .message-btn {
@@ -39,5 +60,13 @@
 @media #{$tablet} {
 	.right-column {
 		padding: 0 40px;
+	}
+
+	.mobile-title{
+		display: none;
+	}
+
+	.desktop-title {
+		display: block;
 	}
 }

@@ -22,6 +22,9 @@
 		<div class="practice-area mxw-960">
 			<div class="inner">
 				<h3><?php the_title(); ?></h3>
+				<div class="intro-copy">
+					<?php the_field('intro_copy'); ?>
+				</div>
 				<div class="row">
 					<?php if( have_rows('section') ):
 						while ( have_rows('section') ) : the_row(); ?>

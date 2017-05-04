@@ -59,7 +59,7 @@
 
 						<div class="col-xs-12 col-sm-6 col-md-3">
 							<div class="content">
-								<div class="attorney" style="background-image:url(<?php the_field('profile_image') ?>);">
+								<div class="attorney" style="background-image:url(<?php the_field('attorneys_landing_page_image') ?>);">
 									<div class="name">
 										<h4 class="thename"><?php the_title(); ?></h4>
 										<h5 class="position"><?php the_field('position'); ?></h5>

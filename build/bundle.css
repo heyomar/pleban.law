@@ -1953,6 +1953,7 @@ footer {
   text-align: center;
   color: #ffffff;
   background-position: center;
+  background-size: cover;
   background-repeat: no-repeat;
   margin: 25px; }
   .attorney .name {

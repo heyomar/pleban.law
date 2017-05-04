@@ -109,4 +109,8 @@ nav {
 	.current-menu-item {
 		border-bottom: 2px solid $white;
 	}
+
+	footer .current-menu-item {
+		border: 0;
+	}
 }

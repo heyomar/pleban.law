@@ -1732,7 +1732,9 @@ nav {
   .site-logo .logo {
     height: 55px; }
   .current-menu-item {
-    border-bottom: 2px solid #ffffff; } }
+    border-bottom: 2px solid #ffffff; }
+  footer .current-menu-item {
+    border: 0; } }
 
 footer {
   background-color: #1e201f;

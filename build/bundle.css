@@ -1678,7 +1678,8 @@ nav {
   .menu-header-navigation-container .menu-item {
     display: block;
     text-align: right;
-    text-decoration: none; }
+    text-decoration: none;
+    margin-bottom: 15px; }
 
 .site-logo {
   position: relative;
@@ -1904,8 +1905,7 @@ footer {
   background-position: top center; }
 
 .practice-areas {
-  font-size: 18px;
-  line-height: 26px; }
+  font-size: 18px; }
 
 .case-results {
   padding: 80px 20px;
@@ -2027,7 +2027,8 @@ footer {
     font-size: 18px; }
     .hover-content .list li {
       padding: 2px 0;
-      color: #777777; }
+      color: #777777;
+      line-height: 1.2; }
   .hover-content .title {
     color: #ffffff; }
 

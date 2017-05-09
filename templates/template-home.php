@@ -15,8 +15,16 @@
 					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 						<div class="content">
 							<div class="carousel">
-							  <div class="slide-one">Agressive <br> <span class="plus">&plus;</span> <br>Experienced</div>
-								<div class="slide-one">Lorem <br> <span class="plus">&plus;</span> <br>Words</div>
+							  <div class="slide-one">
+                  Agressive
+                  <div class="plus">&plus;</div>
+                  Experienced
+                </div>
+								<div class="slide-one">
+                  Lorem
+                  <div class="plus">&plus;</div>
+                  Words
+                </div>
 							</div>
 
 							<div class="searchform">

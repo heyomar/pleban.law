@@ -2,7 +2,7 @@
 // SLIDER
 //––––––––––––––––––––––––––––––
 .frs-slideshow-container .frs-slideshow-content {
-		background: transparent url('') !important;
+	background: transparent;
 }
 
 .slide-one {
@@ -19,15 +19,13 @@
 		line-height: .7;
 		color: $offblack;
 	}
-
 }
 
 @media #{$tablet} {
 	.slide-one {
 		font-size: 8rem;
-
-
 	}
+
 	.slide-one .plus {
 		font-size: 13rem;
 	}

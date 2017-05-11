@@ -19,7 +19,7 @@
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 				<div class="content">
 					<div class="bar">
-						Schedule a NO Obligation Consultation
+						Schedule a No Obligation Consultation
             <img class="icon" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/icon__arrowhead-up.svg">
 					</div>
 				</div>

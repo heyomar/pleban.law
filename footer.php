@@ -55,7 +55,7 @@
 									  <button type="submit">Submit</button>
 									</form>
 
-								<span>Connect&nbsp;With&nbsp;Us&nbsp;on <a href="#">Linkedin</a></span>
+								<span>Connect&nbsp;With&nbsp;Us&nbsp;on <a href="#">LinkedIn</a></span>
 							</div>
 						</div>
 					</div>

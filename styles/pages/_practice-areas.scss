@@ -48,6 +48,8 @@
 		display: flex;
 		opacity: 1;
 		background-color: $offblack;
+		position: absolute;
+		top: 0;
 
 		.title {
 			margin-bottom: 0;

@@ -2113,7 +2113,9 @@ footer {
       display: -ms-flexbox;
       display: flex;
       opacity: 1;
-      background-color: #231f20; }
+      background-color: #231f20;
+      position: absolute;
+      top: 0; }
       .injury:hover .hover-content .title, .employment:hover .hover-content .title, .criminal:hover .hover-content .title, .civil:hover .hover-content .title {
         margin-bottom: 0; } }
 

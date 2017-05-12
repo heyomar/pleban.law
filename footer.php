@@ -14,15 +14,15 @@
 						<div class="content">
 							<div class="contact">
 								<a class="link no-border" href="">
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/footer__icon-phone.svg" alt="">
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/footer__icon-phone.png" alt="">
 									314.645.6666
 								</a>
 								<a class="link no-border" href="">
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/footer__icon-fax.svg" alt="">
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/footer__icon-fax.png" alt="">
 									314.645.7376
 								</a>
 								<a class="link no-border" href="#">
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/footer__icon-email.svg" alt="">
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/footer__icon-email.png" alt="">
 									info@plebanlaw.com
 								</a>
 							</div>

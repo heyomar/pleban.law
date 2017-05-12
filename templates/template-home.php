@@ -69,11 +69,10 @@ get_header(); ?>
 		<div class="row">
 
 			<div class="col-xs-12 col-sm-6">
-
 					<div class="content injury">
 					<h3 class="title">Personal Injury</h3>
 					<a class="link plus" href="/personal-injury">&plus;</a>
-					<a class="link-div" href="/employment">
+
 					<div class="hover-content">
 						<h3 class="title">Personal Injury</h3>
 						<ul class="list">
@@ -86,9 +85,8 @@ get_header(); ?>
 							<li>Consumer Rights</li>
 						</ul>
 						<a class="link arrow" href="/personal-injury"></a>
-					</div></a>
+					</div>
 				</div>
-
 			</div>
 
 			<div class="col-xs-12 col-sm-6">
@@ -136,7 +134,7 @@ get_header(); ?>
 													</div>
 													<div class="col-xs-12 col-sm-6">
 														<div class="content civil hover-effects">
-															<h4 class="title">Other Civil <br> Litigation</h4>
+															<h4 class="title">Other Civil Litigation</h4>
 															<a class="link plus" href="/other-civil-litigation">&plus;</a>
 															<div class="hover-content">
 																<h4 class="title">Other Civil <br> Litigation</h4>
@@ -195,7 +193,7 @@ get_header(); ?>
 			<?php if ( $the_query->have_posts() ) : while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
 				<div class="col-xs-12 col-sm-4 col-md-3">
 					<div class="content">
-						<h3><?php the_title(); ?></h3>
+						<h2><?php the_title(); ?></h2>
 						<?php the_excerpt(); ?>
 					</div>
 				</div>
@@ -208,6 +206,7 @@ get_header(); ?>
 		<a class="readmore" href="/news">More Case Results</a>
 	</div>
 </div>
+
 <!--
 		NEWS
 ------------------------------------------------------------------------------->

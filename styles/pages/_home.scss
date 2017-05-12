@@ -41,7 +41,7 @@
 // CASE RESULTS
 //––––––––––––––––––––––––––––––
 .case-results {
-	padding: 80px 20px 90px 20px;
+	padding: 80px 60px;
  	background-color: #f3f3f3;
   background-image: url('../assets/home__casestudies-bg.png');
   background-repeat: no-repeat;
@@ -49,6 +49,10 @@
 
 	.row {
 		padding-bottom: 50px;
+	}
+
+	.content {
+		text-align: center;
 	}
 
 	.title {
@@ -99,6 +103,10 @@
 // MEDIA QUIRIES
 //––––––––––––––––––––––––––––––
 @media #{$tablet} {
+	.case-results .content{
+		text-align: left;
+		padding:0 5px;
+	}
 	.case-results .title {
 		text-align: left;
 	}

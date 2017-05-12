@@ -1744,11 +1744,12 @@ footer {
   footer a {
     text-decoration: underline; }
   footer .title {
-    font-size: 4rem;
+    font-size: 4.2rem;
     font-weight: bold;
     text-transform: uppercase;
     margin-bottom: 50px;
-    text-align: center; }
+    text-align: center;
+    line-height: 58px; }
   footer .contact {
     margin-left: auto;
     margin-right: auto;
@@ -1911,7 +1912,7 @@ footer {
   font-size: 18px; }
 
 .case-results {
-  padding: 80px 20px 90px 20px;
+  padding: 80px 60px;
   background-color: #f3f3f3;
   background-image: url("../assets/home__casestudies-bg.png");
   background-repeat: no-repeat;
@@ -1919,6 +1920,8 @@ footer {
   /* this puts it always at the bottom right */ }
   .case-results .row {
     padding-bottom: 50px; }
+  .case-results .content {
+    text-align: center; }
   .case-results .title {
     text-align: center; }
   .case-results .inner {
@@ -1943,6 +1946,9 @@ footer {
     margin-bottom: 40px; }
 
 @media screen and (min-width: 768px) {
+  .case-results .content {
+    text-align: left;
+    padding: 0 5px; }
   .case-results .title {
     text-align: left; }
   .home .hero {
@@ -2063,7 +2069,7 @@ footer {
     background-repeat: no-repeat;
     background-position: top center;
     margin-bottom: 10px;
-    height: 150px;
+    height: 220px;
     position: relative; }
   .areas .employment {
     background-image: url(../assets/pa__employment.jpg);
@@ -2072,7 +2078,7 @@ footer {
     background-repeat: no-repeat;
     background-position: top center;
     margin-bottom: 10px;
-    height: 150px;
+    height: 220px;
     position: relative; }
     .areas .employment .list {
       font-size: 16px; }
@@ -2082,7 +2088,7 @@ footer {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top center;
-    height: 150px;
+    height: 220px;
     margin-bottom: 10px;
     position: relative; }
   .areas .civil {
@@ -2091,7 +2097,7 @@ footer {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top center;
-    height: 150px;
+    height: 220px;
     position: relative; }
     .areas .civil .list {
       font-size: 14px; }

@@ -1666,7 +1666,7 @@ nav {
 
 .menu-header-navigation-container {
   background-color: #231f20;
-  padding: 80px 15px;
+  padding: 110px 15px 80px 15px;
   position: absolute;
   right: -350px;
   width: 300px;
@@ -1677,7 +1677,7 @@ nav {
     display: block;
     text-align: right;
     text-decoration: none;
-    margin-bottom: 15px; }
+    margin-bottom: 30px; }
 
 .site-logo {
   position: relative;
@@ -1886,7 +1886,7 @@ footer {
 
 .home .hero {
   background-image: url("../assets/home__hero-bg.jpg");
-  margin-bottom: 0;
+  margin-bottom: -2px;
   min-height: 675px; }
 
 .home .injury {
@@ -2044,7 +2044,7 @@ footer {
     text-align: center;
     color: #ffffff;
     text-transform: uppercase;
-    font-weight: 600; }
+    font-size: 30px; }
   .areas .content {
     display: -webkit-box;
     display: -ms-flexbox;

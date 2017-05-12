@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="62.245" height="62.25" viewBox="0 0 62.245 62.25">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" viewBox="0 0 64 64">
   <metadata><?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
 <x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c138 79.159824, 2016/09/14-01:09:01        ">
    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
@@ -27,13 +27,5 @@
                                                                                                     
                            
 <?xpacket end="w"?></metadata>
-<defs>
-    <style>
-      .cls-1 {
-        fill: #fff;
-        fill-rule: evenodd;
-      }
-    </style>
-  </defs>
-  <path id="Rectangle_39_copy_7" data-name="Rectangle 39 copy 7" class="cls-1" d="M966.544,91.887l56.566,56.569-5.65,5.656L960.887,97.544Zm-5.657,56.569,56.573-56.569,5.65,5.657-56.566,56.568Z" transform="translate(-960.875 -91.875)"/>
+<image id="Rectangle_39_copy_7" data-name="Rectangle 39 copy 7" width="64" height="64" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAQAAAAAYLlVAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAHdElNRQfhBQwNMi6qhJiiAAABpElEQVRo3tXZQY7CMAyFYTM9TS/Q3v8QSPQEdMkFRo9FpyQhTWI7tqIJK6ia/5MoBeQbKFoT/ZL/Sio/0YGZ7rS45xe60xw9x/mY8QTwwgJyfCx4AXhiPl9J83AmHHnEhO+8JyHkI8KR35EuD0Ka/xAIEzbky5qQ5wHggYlAWC8PWhKWQmE9rwFfQiUfPgV+hGoe0X3Ah9DIxwAPQjOfAqwJjPw3wJLAyucAKwIzfwWwILDz14AyYbXOlwA9BFG+DNAShPkaQEMQ5+sAKUGRbwEkBFW+DeASlHkOgENQ53mAFqEjzwXUCF15PqBM6MpLACVCV14G4BFEeSmgTRDm5YA6QZzXAMoERR7J3/Mx67+9BYMvwsEfw8E3osG34vKXUd8vaJOv4y5Cf76TYJHvItjkOwhWeTXBLq8kWOZVZ9nmFWda58Vn2+eFO3jkRbv45AU7eeXZu/nlmTt65lm7+uYZO3vnm7v75xuF8sjGLl8m/I1sroZWtvlrwn4MrXKCRz4n7GFslxK88ilhTweXgeCZD4Q9H90ehM05fxC2kAfdRo/v3z5jpuXTAnDkAAAAAElFTkSuQmCC"/>
 </svg>

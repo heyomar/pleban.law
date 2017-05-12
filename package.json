@@ -7,7 +7,7 @@
     "compile:styles:prefix": "postcss -u autoprefixer -r build/bundle.css --map",
     "compile:styles": "node-sass styles/entry.scss build/bundle.css --source-map-root file://${PWD}/ --source-map-embed true",
     "styles": "parallelshell 'npm run compile:styles' 'npm run compile:styles:prefix'",
-    "serve": "browser-sync start -p law.dev:3000 --files 'build/*.css' 'build/bundle.js' '**/*.php'",
+    "serve": "browser-sync start -p law.dev:3500 --files 'build/*.css' 'build/bundle.js' '**/*.php'",
     "js:compile": "webpack",
     "watch:js": "nodemon --watch scripts --ext js --exec 'npm run js:compile'",
     "watch:styles": "nodemon --watch styles --ext scss --exec 'npm run styles'",

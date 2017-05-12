@@ -27,6 +27,10 @@
 	.civil {
 		background-position: top center;
 	}
+
+	.areas {
+		padding-bottom: 75px;
+	}
 }
 
 .practice-areas {
@@ -37,11 +41,15 @@
 // CASE RESULTS
 //––––––––––––––––––––––––––––––
 .case-results {
-	padding: 80px 20px;
+	padding: 80px 20px 90px 20px;
  	background-color: #f3f3f3;
   background-image: url('../assets/home__casestudies-bg.png');
   background-repeat: no-repeat;
   background-position: 100% 100%; /* this puts it always at the bottom right */
+
+	.row {
+		padding-bottom: 50px;
+	}
 
 	.title {
 		text-align: center;
@@ -122,6 +130,6 @@
 
 @media screen and (min-width:960px) {
 	.home .hero {
-		margin-bottom: 40px;
+		margin-bottom: 85px;
 	}
 }

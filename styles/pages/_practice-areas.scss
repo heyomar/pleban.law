@@ -79,7 +79,7 @@
 	}
 
 	.injury {
-		background-image: url(../assets/pa__personalinjury.jpg);
+		background-image: url(../assets/injury-mobile-bg.jpg);
 		@include cover;
 		background-position: top center;
 		margin-bottom: 10px;
@@ -88,7 +88,7 @@
 	}
 
 	.employment {
-		background-image: url(../assets/pa__employment.jpg);
+		background-image: url(../assets/employment-mobile-bg.jpg);
 		@include cover;
 		background-position: top center;
 		margin-bottom: 10px;
@@ -101,7 +101,7 @@
 	}
 
 	.criminal {
-		background-image: url(../assets/pa__criminal.jpg);
+		background-image: url(../assets/criminal-mobile-bg.jpg);
 		@include cover;
 		background-position: top center;
 		height: 220px;
@@ -110,7 +110,7 @@
 	}
 
 	.civil {
-		background-image: url(../assets/pa__civil.jpg);
+		background-image: url(../assets/civil-mobile-bg.jpg);
 		@include cover;
 		background-position: top center;
 		height: 220px;
@@ -124,6 +124,24 @@
 
 
 @media #{$tablet} {
+	.areas {
+		.injury {
+			background-image: url(../assets/pa__personalinjury.jpg);
+		}
+
+		.employment {
+			background-image: url(../assets/pa__employment.jpg);
+		}
+
+		.criminal {
+			background-image: url(../assets/pa__criminal.jpg);
+		}
+
+		.civil {
+			background-image: url(../assets/pa__civil.jpg);
+		}
+	}
+
 	.injury, .employment, .criminal, .civil {
 		@include item-hover;
 		@include cover;

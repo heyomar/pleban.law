@@ -218,7 +218,7 @@ get_header(); ?>
 		'order'						=> 'DESC',
 		'post_type'				=> 'post',
 		'post_status'			=> 'publish',
-		'category_name'  => 'uncategorized'
+		'category_name'  => 'news'
 
 	);
 	$the_query = new WP_Query( $args );?>

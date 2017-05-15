@@ -1,5 +1,13 @@
 .our-firm {
 	.hero {
 		background-image: url('../assets/ourfirm__hero-bg.jpg');
+		margin-bottom: 0;
+	}
+}
+
+
+@media screen and (min-width:960px) {
+	.our-firm .hero {
+		margin-bottom: 82px;
 	}
 }

@@ -1466,7 +1466,7 @@ textarea {
       padding: 8px;
       cursor: pointer; }
   .consultation-form .bar {
-    color: #494a49;
+    color: #717171;
     text-align: center;
     font-size: 1.8rem;
     padding: 15px 5px;
@@ -1510,7 +1510,7 @@ textarea {
     background-color: #2d2d2d;
     color: #ffffff; }
   .consultation-form .nf-field-description {
-    color: #ffffff; }
+    color: #f5f5f5; }
   .consultation-form .checkbox-wrap .nf-field-element {
     width: 20px; }
   .consultation-form .nf-error-field-errors {
@@ -1978,7 +1978,12 @@ footer {
     margin-bottom: 85px; } }
 
 .our-firm .hero {
-  background-image: url("../assets/ourfirm__hero-bg.jpg"); }
+  background-image: url("../assets/ourfirm__hero-bg.jpg");
+  margin-bottom: 0; }
+
+@media screen and (min-width: 960px) {
+  .our-firm .hero {
+    margin-bottom: 82px; } }
 
 .our-attorneys .hero, .single-attorney .hero {
   background-image: url("../assets/ourattorneys__hero-bg.jpg"); }
@@ -2142,6 +2147,9 @@ footer {
 .blog p {
   line-height: 24px; }
 
+.case-and-news {
+  margin-bottom: 128px; }
+
 .date {
   font-weight: bold;
   color: #b6b6b6;
@@ -2179,6 +2187,13 @@ footer {
     .pagination .page-numbers:hover {
       background-color: #231f20;
       color: #ffffff; }
+  .pagination .current {
+    background-color: #231f20;
+    color: #ffffff; }
+
+body.single-post {
+  font-size: 16px;
+  line-height: 24px; }
 
 .single-post .hero {
   background-image: url("../assets/crnews__hero-bg.jpg"); }

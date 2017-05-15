@@ -1,3 +1,4 @@
+
 .blog {
 	.hero {
 		background-image: url('../assets/crnews__hero-bg.jpg');
@@ -6,6 +7,10 @@
 	p {
 		line-height: 24px;
 	}
+}
+
+.case-and-news {
+	margin-bottom: 128px;
 }
 
 
@@ -62,6 +67,16 @@
 			color: $white;
 		}
 	}
+
+	.current {
+		background-color: $offblack;
+		color: $white;
+	}
+}
+
+body.single-post {
+	font-size: 16px;
+	line-height: 24px;
 }
 
 

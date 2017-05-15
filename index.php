@@ -16,7 +16,7 @@
 	</div>
 </div>
 
-<div class="room-sides mxw-960">
+<div class="room-sides mxw-960 case-and-news">
 	<?php
 		$paged = ( get_query_var( 'paged' ) ) ? absint( get_query_var( 'paged' ) ) : 1;
 
@@ -38,6 +38,7 @@
 				<div class="settlement">
 					<object class="icon" type="image/svg+xml" data="<?php echo get_stylesheet_directory_uri(); ?>/assets/blog__icon-gavel.svg"></object>
 					<span class="copy">Settlement</span>
+					<div class="type"><?php the_field('settlement_type') ?></div>
 				</div>
 				<h3 class="title"><a href="<?php the_permalink();?>"><?php the_title() ;?></a></h3>
 				<?php the_excerpt(); ?>

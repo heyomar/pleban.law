@@ -19,6 +19,7 @@
 			<div class="inner">
 				<div class="date"><?php the_time( get_option( 'date_format' ) ); ?></div>
 				<h2 class="title"><a href="<?php the_permalink();?>"><?php the_title() ;?></a></h2>
+				<div class="author">By <?php the_field('article_source') ?></div>
 				<div class="row">
 					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 						<div class="content">

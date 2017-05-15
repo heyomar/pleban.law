@@ -193,6 +193,7 @@ get_header(); ?>
 			<?php if ( $the_query->have_posts() ) : while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
 				<div class="col-xs-12 col-sm-4 col-md-3">
 					<div class="content">
+						<div class="outcome"><?php the_field('case_outcome'); ?></div>
 						<h2><?php the_title(); ?></h2>
 						<?php the_excerpt(); ?>
 					</div>

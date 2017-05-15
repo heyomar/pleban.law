@@ -1433,9 +1433,10 @@ textarea {
   height: 120px !important; }
 
 .consultation-form {
-  background-color: #231f20;
+  background-color: #1d1d1d;
   margin-bottom: 40px;
-  display: block; }
+  display: block;
+  padding-bottom: 50px; }
   .consultation-form .copy {
     font-size: 1.8rem;
     color: #ffffff;
@@ -1468,10 +1469,11 @@ textarea {
   .consultation-form .bar {
     color: #717171;
     text-align: center;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     padding: 15px 5px;
-    border-bottom: 2px solid #494a49;
-    cursor: pointer; }
+    border-bottom: 2px solid #282828;
+    cursor: pointer;
+    font-weight: 600; }
     .consultation-form .bar .icon {
       width: 20px;
       margin-left: 8px;
@@ -1555,7 +1557,8 @@ textarea {
     .consultation-form .copy {
       padding: 0; }
     .consultation-form .bar {
-      display: none; }
+      display: none;
+      font-size: 1.8rem; }
     .consultation-form .nf-cell {
       width: 100% !important; }
     .consultation-form .nf-field-container {
@@ -1696,7 +1699,7 @@ nav {
   z-index: 1; }
   .site-logo .logo {
     position: absolute;
-    height: 40px;
+    height: 55px;
     padding-left: 25px;
     left: 0;
     top: 0; }
@@ -1705,7 +1708,7 @@ nav {
   position: relative;
   cursor: pointer; }
   .hamburger .position {
-    width: 30px;
+    width: 40px;
     position: absolute;
     padding: 10px 25px 15px 0;
     z-index: 5; }
@@ -1981,12 +1984,20 @@ footer {
   background-image: url("../assets/ourfirm__hero-bg.jpg");
   margin-bottom: 0; }
 
+.our-firm .subtitle {
+  font-weight: 600;
+  line-height: 34px; }
+
 @media screen and (min-width: 960px) {
   .our-firm .hero {
     margin-bottom: 82px; } }
 
 .our-attorneys .hero, .single-attorney .hero {
   background-image: url("../assets/ourattorneys__hero-bg.jpg"); }
+
+.our-attorneys .copy, .single-attorney .copy {
+  font-size: 28px;
+  line-height: 1.2; }
 
 .attorney {
   min-height: 250px;

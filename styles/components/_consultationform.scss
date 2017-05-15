@@ -2,9 +2,10 @@
 // CONSULTATION FORM
 //––––––––––––––––––––––––––––––
 .consultation-form {
-	background-color: $offblack;
+	background-color: #1d1d1d;
 	margin-bottom: 40px;
 	display: block;
+	padding-bottom: 50px;
 
 	.copy {
 		font-size: 1.8rem;
@@ -46,10 +47,11 @@
 	.bar {
 		color: #717171;
 		text-align: center;
-		font-size: 1.8rem;
+		font-size: 1.6rem;
 		padding: 15px 5px;
-		border-bottom: 2px solid $gray;
+		border-bottom: 2px solid #282828;
 		cursor: pointer;
+		font-weight: 600;
 
 		.icon {
 			width: 20px;
@@ -180,6 +182,7 @@
 
 		.bar {
 			display: none;
+			font-size: 1.8rem;
 		}
 
 		.nf-cell {

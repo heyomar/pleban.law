@@ -16,6 +16,8 @@
 	</div>
 </div>
 
+<?php get_template_part('template-parts/signup') ?>
+
 <div class="room-sides mxw-960 case-and-news">
 	<?php
 		$paged = ( get_query_var( 'paged' ) ) ? absint( get_query_var( 'paged' ) ) : 1;

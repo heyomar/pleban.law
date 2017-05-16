@@ -1293,14 +1293,8 @@ hr {
   color: #494a49;
   line-height: 24px; }
 
-.link-div {
-  display: block; }
-
 .boxlink {
-  display: block;
-  border: 1px solid red;
-  height: 100%;
-  position: absolute; }
+  display: block; }
 
 .rel {
   position: relative; }
@@ -1732,7 +1726,8 @@ nav {
     text-align: right;
     top: 0;
     right: 25px;
-    z-index: 0; }
+    z-index: 0;
+    min-height: 60px; }
     .menu-header-navigation-container .menu-item {
       display: inline-block;
       margin: 10px;
@@ -2037,7 +2032,13 @@ footer {
     margin: 0; } }
 
 .practice-areas .hero, .page-template-template-practice-area .hero {
-  background-image: url("../assets/practiceareas__hero-bg.jpg"); }
+  background-image: url("../assets/practiceareas__hero-bg.jpg");
+  margin-bottom: -1px; }
+
+.practice-areas .copy, .page-template-template-practice-area .copy {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 1.2; }
 
 .hover-content {
   visibility: hidden;

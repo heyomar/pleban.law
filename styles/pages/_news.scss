@@ -23,23 +23,28 @@
 
 .readmore {
 	border-bottom: 1px solid $offblack;
+	font-weight: bold;
 }
 
 
 .settlement {
 	padding-bottom: 15px;
-	.icon {
+	.gavel {
 		height: auto;
-		width: 20px;
+		width: 30px;
 		display: inline-block;
+		vertical-align: middle;
+		padding-right: 10px;
 	}
 
 	.copy {
 		font-weight: bold;
 		color: $green;
-		vertical-align: 4px;
 		text-transform: uppercase;
+		vertical-align: middle;
 	}
+
+
 }
 
 
@@ -47,10 +52,18 @@
 	padding: 40px 0;
 	.attachment-post-thumbnail {
 		width: 100%;
+		max-width: 460px;
+		max-height: 300px;
 	}
 	.content {
 		margin-right: 10px;
 	}
+
+	.title a {
+		font-size: 34px;
+		font-weight: 900;
+	}
+
 }
 
 
@@ -88,6 +101,7 @@ body.single-post {
 	.title {
 		font-weight: 800;
 		margin-bottom: 0;
+
 	}
 
 	.content img {

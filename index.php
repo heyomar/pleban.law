@@ -38,7 +38,7 @@
 
 			<div class="post-item">
 				<div class="settlement">
-					<object class="icon" type="image/svg+xml" data="<?php echo get_stylesheet_directory_uri(); ?>/assets/blog__icon-gavel.svg"></object>
+					<img class="gavel" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/news__settlement-icon.png" alt="">
 					<span class="copy">Settlement</span>
 					<div class="type"><?php the_field('settlement_type') ?></div>
 				</div>

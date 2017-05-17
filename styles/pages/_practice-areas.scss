@@ -11,6 +11,13 @@
 		font-weight: 600;
 		line-height: 1.2;
 	}
+
+	.consultation-form {
+		margin-bottom: 85px;
+	}
+	.areas {
+		padding-bottom: 114px;
+	}
 }
 
 
@@ -130,6 +137,9 @@
 
 
 @media #{$tablet} {
+	.practice-areas .hero {
+		margin-bottom: 85px;
+	}
 	.areas {
 		.injury {
 			background-image: url(../assets/pa__personalinjury.jpg);

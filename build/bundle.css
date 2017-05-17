@@ -2040,6 +2040,12 @@ footer {
   font-weight: 600;
   line-height: 1.2; }
 
+.practice-areas .consultation-form, .page-template-template-practice-area .consultation-form {
+  margin-bottom: 85px; }
+
+.practice-areas .areas, .page-template-template-practice-area .areas {
+  padding-bottom: 114px; }
+
 .hover-content {
   visibility: hidden;
   opacity: 0;
@@ -2129,6 +2135,8 @@ footer {
       font-size: 14px; }
 
 @media screen and (min-width: 768px) {
+  .practice-areas .hero {
+    margin-bottom: 85px; }
   .areas .injury {
     background-image: url(../assets/pa__personalinjury.jpg); }
   .areas .employment {

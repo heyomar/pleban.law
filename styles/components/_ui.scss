@@ -34,15 +34,22 @@
 //––––––––––––––––––––––––––––––
 .btn {
 	border: 2px solid $offblack;
-	padding: 10px 80px;
+	padding: 10px 30px;
 	display: inline-block;
-	font-size: 20px;
+	font-size: 16px;
 	font-weight: 700;
 	background-color: $white;
 	margin: 20px 20px 20px 0;
 	&:hover {
 		background-color: $offblack;
 		color: $white;
+	}
+}
+
+@media #{$tablet} {
+	.btn {
+		font-size: 20px;
+		padding: 10px 80px;
 	}
 }
 

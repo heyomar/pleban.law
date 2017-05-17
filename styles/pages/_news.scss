@@ -98,8 +98,8 @@ body.single-post {
 		background-image: url('../assets/crnews__hero-bg.jpg');
 	}
 
-	.title {
-		font-weight: 800;
+	.post .title a{
+		font-weight: 900;
 		margin-bottom: 0;
 
 	}
@@ -107,6 +107,7 @@ body.single-post {
 	.content img {
 		display: none;
 	}
+
 }
 
 @media #{$tablet} {

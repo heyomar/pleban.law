@@ -2260,6 +2260,8 @@ body.single-post {
 
 .contact .submit-container {
   text-align: right; }
+  .contact .submit-container input {
+    font-weight: bold; }
 
 .linkedin {
   margin-top: 15px; }
@@ -2281,7 +2283,8 @@ body.single-post {
   color: #232323; }
 
 .contact-details address a {
-  text-decoration: none; }
+  text-decoration: none;
+  font-weight: normal; }
 
 .contact-details address p {
   margin: 0; }
@@ -2292,7 +2295,6 @@ body.single-post {
 
 .contact-us .copy {
   font-size: 23px;
-  font-weight: 600;
   padding: 0 0 25px 0;
   color: #494a49; }
 

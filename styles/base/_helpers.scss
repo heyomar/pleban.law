@@ -57,7 +57,6 @@
 }
 
 
-
 .parent {
 	.title {
 		color: #231f20;
@@ -77,6 +76,8 @@
 
 .boxlink {
 	display: block;
+	height: 100%;
+	border:1px solid red;
 }
 
 .rel {

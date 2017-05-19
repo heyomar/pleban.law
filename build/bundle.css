@@ -1294,7 +1294,9 @@ hr {
   line-height: 24px; }
 
 .boxlink {
-  display: block; }
+  display: block;
+  height: 100%;
+  border: 1px solid red; }
 
 .rel {
   position: relative; }
@@ -1994,24 +1996,27 @@ footer {
     margin-bottom: 82px; } }
 
 .our-attorneys .hero, .single-attorney .hero {
-  background-image: url("../assets/ourattorneys__hero-bg.jpg"); }
+  background-image: url("../assets/ourattorneys__hero-bg.jpg");
+  margin-bottom: 85px; }
 
 .our-attorneys .copy, .single-attorney .copy {
-  font-size: 28px;
-  line-height: 1.2; }
+  font-size: 22px;
+  line-height: 1.2;
+  font-weight: 600; }
 
 .attorney {
-  min-height: 250px;
+  min-height: 400px;
   position: relative;
   text-align: center;
   color: #ffffff;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  margin: 25px; }
+  margin: 0 25px 32px 25px; }
   .attorney .name {
     padding-bottom: 40px;
     padding-top: 15px;
+    font-size: 20px;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -2020,11 +2025,14 @@ footer {
     background: linear-gradient(transparent, rgba(0, 0, 0, 0.9)); }
     .attorney .name .thename {
       font-weight: 600;
-      text-transform: uppercase; }
+      text-transform: uppercase;
+      padding: 0 10px 0 10px;
+      margin-bottom: 20px; }
     .attorney .name .position {
       margin-top: -15px;
       font-family: 'proxima-nova', sans-serif;
-      font-weight: 300;
+      font-weight: 100;
+      font-size: 20px;
       padding-bottom: 10px; }
 
 @media screen and (min-width: 768px) {
@@ -2034,7 +2042,7 @@ footer {
 
 @media screen and (min-width: 1024px) {
   .attorney {
-    min-height: 500px;
+    min-height: 540px;
     margin: 0; } }
 
 .practice-areas .hero, .page-template-template-practice-area .hero {

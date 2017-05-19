@@ -69,9 +69,10 @@ get_header(); ?>
 		<div class="row">
 
 			<div class="col-xs-12 col-sm-6">
-					<div class="content injury">
+				<div class="content injury">
 					<h3 class="title">Personal Injury</h3>
 					<a class="link plus" href="/personal-injury">&plus;</a>
+
 
 					<div class="hover-content">
 						<h3 class="title">Personal Injury</h3>
@@ -86,6 +87,7 @@ get_header(); ?>
 						</ul>
 						<a class="link arrow" href="/personal-injury"></a>
 					</div>
+
 				</div>
 			</div>
 

@@ -22,7 +22,7 @@
 	</div>
 </div>
 
-<?php get_template_part('template-parts/signup') ?>
+<?php # get_template_part('template-parts/signup') ?>
 
 <div class="inner-space mxw-960 parent">
 	<div class="inner">
@@ -47,7 +47,8 @@
 			<?php
 
 				$args = array(
-					'orderby' => 'ASC',
+					'orderby' => 'title',
+					'order' => 'ASC',
 					'posts_per_page' 	=> '-1',
 					'post_type'				=> 'attorney',
 					'post_status'			=> 'publish'
@@ -59,10 +60,11 @@
 
 						<div class="col-xs-12 col-sm-6 col-md-3">
 							<div class="content">
+
 								<div class="attorney" style="background-image:url(<?php the_field('attorneys_landing_page_image') ?>);">
 									<div class="name">
-										<h4 class="thename"><?php the_title(); ?></h4>
-										<h5 class="position"><?php the_field('position'); ?></h5>
+										<div class="thename"><?php the_title(); ?></div>
+										<div class="position"><?php the_field('position'); ?></div>
 										<a class="link arrow" href="<?php the_permalink(); ?>"></a>
 									</div>
 								</div>

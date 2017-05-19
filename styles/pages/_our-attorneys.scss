@@ -1,29 +1,32 @@
 .our-attorneys, .single-attorney {
 	.hero {
 		background-image: url('../assets/ourattorneys__hero-bg.jpg');
+		margin-bottom: 85px;
 	}
 
 	.copy {
-		font-size: 28px;
+		font-size: 22px;
 		line-height: 1.2;
+		font-weight: 600;
 	}
 }
 
 
 .attorney {
-	min-height: 250px;
+	min-height: 400px;
 	position: relative;
 	text-align: center;
 	color: $white;
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
-	margin: 25px;
+	margin: 0 25px 32px 25px;
 
 
 	.name {
 		padding-bottom: 40px;
 		padding-top: 15px;
+		font-size: 20px;
 		position: absolute;
 		bottom: 0;
 		left: 0;
@@ -33,12 +36,15 @@
 		.thename {
 			font-weight: 600;
 			text-transform: uppercase;
+			padding: 0 10px 0 10px;
+			margin-bottom: 20px;
 		}
 
 		.position {
 			margin-top: -15px;
 			font-family: 'proxima-nova', sans-serif;
-			font-weight: 300;
+			font-weight: 100;
+			font-size: 20px;
 			padding-bottom: 10px;
 		}
 	}
@@ -54,7 +60,7 @@
 
 @media screen and (min-width:1024px) {
 	.attorney {
-		min-height: 500px;
+		min-height: 540px;
 		margin: 0;
 	}
 }

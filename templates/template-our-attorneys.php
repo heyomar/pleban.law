@@ -22,7 +22,7 @@
 	</div>
 </div>
 
-<?php # get_template_part('template-parts/signup') ?>
+<?php get_template_part('template-parts/signup') ?>
 
 <div class="inner-space mxw-960 parent">
 	<div class="inner">
@@ -68,7 +68,7 @@
 										<a class="link arrow" href="<?php the_permalink(); ?>"></a>
 									</div>
 								</div>
-								
+
 							</div>
 						</div>
 

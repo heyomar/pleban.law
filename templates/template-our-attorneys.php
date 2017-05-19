@@ -68,6 +68,7 @@
 										<a class="link arrow" href="<?php the_permalink(); ?>"></a>
 									</div>
 								</div>
+								
 							</div>
 						</div>
 

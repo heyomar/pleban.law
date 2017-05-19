@@ -29,7 +29,7 @@
 	}
 
 	.areas {
-		padding-bottom: 75px;
+		padding-bottom: 0px;
 	}
 }
 
@@ -137,7 +137,12 @@
 
 
 @media screen and (min-width:960px) {
-	.home .hero {
-		margin-bottom: 85px;
+	.home {
+		.hero {
+			margin-bottom: 85px;
+		}
+		.areas {
+			padding-bottom: 75px;
+		}
 	}
 }

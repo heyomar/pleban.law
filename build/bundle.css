@@ -1455,10 +1455,12 @@ textarea {
       color: #1e201f;
       background-color: #494a49;
       margin: 0 8px;
-      font-weight: bold;
-      width: 25px;
-      height: 25px;
-      display: inline-block; }
+      font-weight: bolder;
+      font-size: 26px;
+      width: 30px;
+      height: 30px;
+      display: inline-block;
+      vertical-align: middle; }
     .consultation-form .copy .form-cross {
       position: absolute;
       right: 0;
@@ -1487,7 +1489,7 @@ textarea {
     .consultation-form .copy-mobile .or::after {
       content: '';
       position: absolute;
-      top: 50%;
+      top: 55%;
       left: 50%;
       -webkit-transform: translate(-50%, -50%);
               transform: translate(-50%, -50%);
@@ -1600,13 +1602,13 @@ textarea {
   text-align: center;
   color: #ffffff;
   text-transform: uppercase;
-  font-size: 4rem;
+  font-size: 4.4rem;
   font-weight: 600;
   position: relative; }
   .slide-one .plus {
     font-size: 10rem;
     font-weight: bold;
-    line-height: .7;
+    line-height: .5;
     color: #231f20; }
 
 @media screen and (min-width: 768px) {
@@ -1921,7 +1923,7 @@ footer {
   background-position: top center; }
 
 .home .areas {
-  padding-bottom: 75px; }
+  padding-bottom: 0px; }
 
 .practice-areas {
   font-size: 18px; }
@@ -1981,7 +1983,9 @@ footer {
 
 @media screen and (min-width: 960px) {
   .home .hero {
-    margin-bottom: 85px; } }
+    margin-bottom: 85px; }
+  .home .areas {
+    padding-bottom: 75px; } }
 
 .our-firm .hero {
   background-image: url("../assets/ourfirm__hero-bg.jpg");

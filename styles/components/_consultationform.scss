@@ -26,10 +26,12 @@
 			color: $darkgray;
 			background-color: $gray;
 			margin: 0 8px;
-			font-weight: bold;
-			width: 25px;
-			height: 25px;
+			font-weight: bolder;
+			font-size: 26px;
+			width: 30px;
+			height: 30px;
 			display: inline-block;
+			vertical-align: middle;
 		}
 
 		.form-cross {
@@ -68,7 +70,7 @@
 		&::after {
 			content:'';
 			position: absolute;
-			top: 50%;
+			top: 55%;
 			left: 50%;
 			transform: translate(-50%, -50%);
 			width: 200px;

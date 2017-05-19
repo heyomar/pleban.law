@@ -71,7 +71,7 @@ get_header(); ?>
 			<div class="col-xs-12 col-sm-6">
 				<div class="content injury">
 					<h3 class="title">Personal Injury</h3>
-					<a class="link plus" href="/personal-injury">&plus;</a>
+					<a class="link plus" href="/personal-injury"></a>
 
 
 					<div class="hover-content">
@@ -85,7 +85,7 @@ get_header(); ?>
 							<li>Appeals</li>
 							<li>Consumer Rights</li>
 						</ul>
-						<a class="link arrow" href="/personal-injury"></a>
+						<a class="link box" href="/personal-injury"></a>
 					</div>
 
 				</div>
@@ -101,7 +101,7 @@ get_header(); ?>
 								<div class="col-xs-12 col-sm-12">
 									<div class="content employment">
 										<h3 class="title">Employment</h3>
-										<a class="link plus" href="/employment">&plus;</a>
+										<a class="link plus" href="/employment"></a>
 										<div class="hover-content">
 											<h3 class="title">Employment</h3>
 											<ul class="list">
@@ -112,7 +112,7 @@ get_header(); ?>
 												<li>Administrative Preceedings</li>
 												<li>Free Speech False Claims Act</li>
 											</ul>
-											<a class="link arrow" href="/employment"></a>
+											<a class="link box" href="/employment"></a>
 										</div>
 									</div>
 								</div>
@@ -126,18 +126,18 @@ get_header(); ?>
 													<div class="col-xs-12 col-sm-6">
 														<div class="content criminal">
 															<h4 class="title">Criminal &amp; DWI</h4>
-															<a class="link plus" href="/criminal-&amp;-dwi">&plus;</a>
+															<a class="link plus" href="/criminal-&amp;-dwi"></a>
 															<div class="hover-content">
 																<h4 class="title">Criminal &amp; DWI</h4>
 																<br>
-																<a class="link arrow small" href="/criminal-&amp;-dwi"></a>
+																<a class="link box" href="/criminal-&amp;-dwi"></a>
 															</div>
 														</div>
 													</div>
 													<div class="col-xs-12 col-sm-6">
 														<div class="content civil hover-effects">
 															<h4 class="title">Other Civil Litigation</h4>
-															<a class="link plus" href="/other-civil-litigation">&plus;</a>
+															<a class="link plus" href="/other-civil-litigation"></a>
 															<div class="hover-content">
 																<h4 class="title">Other Civil <br> Litigation</h4>
 																<ul class="list">
@@ -149,7 +149,7 @@ get_header(); ?>
 																	<li>Appeals</li>
 																	<li>Consumer Rights</li>
 																</ul>
-																<a class="link arrow small" href="/other-civil-litigation"></a>
+																<a class="link box" href="/other-civil-litigation"></a>
 															</div>
 														</div>
 													</div>

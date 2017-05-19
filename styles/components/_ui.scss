@@ -54,35 +54,21 @@
 }
 
 
+@mixin box {
+	border: 2px solid $white;
+	display: block;
+	width: 50px;
+	height: 45px;
+	margin: 0 auto;
+	text-align: center;
+	color: $white;
+	font-size: 25px;
+	line-height: 50px;
+}
+
 .link {
 	&.plus {
-		border: 2px solid $white;
-		display: block;
-		width: 50px;
-		height: 45px;
-		margin: 0 auto;
-		text-align: center;
-		color: $white;
-		font-size: 25px;
-		line-height: 50px;
-
-		&.small {
-			width: 35px;
-			height: 30px;
-			line-height: 35px;
-		}
-	}
-
-	&.arrow {
-		border: 2px solid $white;
-		display: block;
-		width: 50px;
-		height: 45px;
-		margin: 0 auto;
-		text-align: center;
-		color: $white;
-		font-size: 25px;
-		line-height: 50px;
+		@include box;
 
 		&:after {
 			content: '';
@@ -91,9 +77,43 @@
 			background-repeat: no-repeat;
 			display: inline-block;
 			vertical-align: middle;
+			height: 14px;
+			width: 13px;
+			margin-top: -3px;
+			margin-right: -5px;
+		}
+	}
+
+	&.box {
+		@include box;
+
+		&:after {
+			content: '';
+			background-image: url(../assets/link__plus.png);
+			background-size: contain;
+			background-repeat: no-repeat;
+			display: inline-block;
+			vertical-align: middle;
 			height: 15px;
 			width: 9px;
+		}
+	}
+}
 
+
+@media #{$tablet} {
+	.link {
+		&.plus {
+			&:after {
+				background-image: url(../assets/link__plus.png);
+				margin-top: -3px;
+				margin-right: 0;
+			}
+		}
+		&.box {
+			&:after {
+				background-image: url(../assets/link__arrow.png);
+			}
 		}
 	}
 }

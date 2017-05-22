@@ -1295,8 +1295,7 @@ hr {
 
 .boxlink {
   display: block;
-  height: 100%;
-  border: 1px solid red; }
+  height: 100%; }
 
 .rel {
   position: relative; }
@@ -2135,7 +2134,8 @@ footer {
     background-position: top center;
     margin-bottom: 10px;
     height: 220px;
-    position: relative; }
+    position: relative;
+    cursor: pointer; }
   .areas .employment {
     background-image: url(../assets/employment-mobile-bg.jpg);
     background-position: center center;
@@ -2144,7 +2144,8 @@ footer {
     background-position: top center;
     margin-bottom: 10px;
     height: 220px;
-    position: relative; }
+    position: relative;
+    cursor: pointer; }
     .areas .employment .list {
       font-size: 16px; }
   .areas .criminal {
@@ -2155,7 +2156,8 @@ footer {
     background-position: top center;
     height: 220px;
     margin-bottom: 10px;
-    position: relative; }
+    position: relative;
+    cursor: pointer; }
   .areas .civil {
     background-image: url(../assets/civil-mobile-bg.jpg);
     background-position: center center;
@@ -2163,7 +2165,8 @@ footer {
     background-repeat: no-repeat;
     background-position: top center;
     height: 220px;
-    position: relative; }
+    position: relative;
+    cursor: pointer; }
     .areas .civil .list {
       font-size: 14px; }
 
@@ -2171,13 +2174,17 @@ footer {
   .practice-areas .hero {
     margin-bottom: 85px; }
   .areas .injury {
-    background-image: url(../assets/pa__personalinjury.jpg); }
+    background-image: url(../assets/pa__personalinjury.jpg);
+    cursor: pointer; }
   .areas .employment {
-    background-image: url(../assets/pa__employment.jpg); }
+    background-image: url(../assets/pa__employment.jpg);
+    cursor: pointer; }
   .areas .criminal {
-    background-image: url(../assets/pa__criminal.jpg); }
+    background-image: url(../assets/pa__criminal.jpg);
+    cursor: pointer; }
   .areas .civil {
-    background-image: url(../assets/pa__civil.jpg); }
+    background-image: url(../assets/pa__civil.jpg);
+    cursor: pointer; }
   .injury, .employment, .criminal, .civil {
     background-position: center center;
     background-size: cover;

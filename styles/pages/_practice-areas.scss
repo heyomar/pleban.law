@@ -98,6 +98,7 @@
 		margin-bottom: 10px;
 		height: 220px;
 		position: relative;
+		cursor: pointer;
 	}
 
 	.employment {
@@ -107,6 +108,7 @@
 		margin-bottom: 10px;
 		height: 220px;
 		position: relative;
+		cursor: pointer;
 
 		.list {
 			font-size: 16px;
@@ -120,6 +122,7 @@
 		height: 220px;
 		margin-bottom: 10px;
 		position: relative;
+		cursor: pointer;
 	}
 
 	.civil {
@@ -128,6 +131,7 @@
 		background-position: top center;
 		height: 220px;
 		position: relative;
+		cursor: pointer;
 
 		.list {
 			font-size: 14px;
@@ -143,18 +147,22 @@
 	.areas {
 		.injury {
 			background-image: url(../assets/pa__personalinjury.jpg);
+			cursor: pointer;
 		}
 
 		.employment {
 			background-image: url(../assets/pa__employment.jpg);
+			cursor: pointer;
 		}
 
 		.criminal {
 			background-image: url(../assets/pa__criminal.jpg);
+			cursor: pointer;
 		}
 
 		.civil {
 			background-image: url(../assets/pa__civil.jpg);
+			cursor: pointer;
 		}
 	}
 
